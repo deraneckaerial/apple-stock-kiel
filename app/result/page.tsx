@@ -136,12 +136,26 @@ function ResultContent() {
       {/* Product info */}
       {productInfo && (
         <div className="text-center mb-5">
+          {productInfo.variant.imageUrl && (
+            <img
+              src={productInfo.variant.imageUrl}
+              alt={productInfo.modelName}
+              width={80}
+              height={80}
+              className="mx-auto mb-2 object-contain"
+            />
+          )}
           <p className="text-[13px] text-apple-gray">
             {productInfo.modelName}
           </p>
           <p className="text-[17px] font-semibold text-apple-dark">
             {variantLabel}
           </p>
+          {productInfo.variant.price && (
+            <p className="text-[15px] text-apple-gray mt-1">
+              {productInfo.variant.price} €
+            </p>
+          )}
         </div>
       )}
 

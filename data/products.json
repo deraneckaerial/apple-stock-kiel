@@ -11,35 +11,45 @@
               "storage": "256GB",
               "color": "Schwarz",
               "colorHex": "#3C3C3C",
-              "connectivity": null
+              "connectivity": null,
+              "price": 929,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161522915?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013576",
               "storage": "256GB",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 929,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161539819?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013577",
               "storage": "256GB",
               "color": "Nebelblau",
               "colorHex": "#8BA8C7",
-              "connectivity": null
+              "connectivity": null,
+              "price": 929,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161533679?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013578",
               "storage": "256GB",
               "color": "Lavendel",
               "colorHex": "#C4A7D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 929,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161528082?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013579",
               "storage": "256GB",
               "color": "Salbei",
               "colorHex": "#A8C4A0",
-              "connectivity": null
+              "connectivity": null,
+              "price": 929,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161535051?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -51,49 +61,63 @@
               "storage": "256GB",
               "color": "Space Schwarz",
               "colorHex": "#2E2E2E",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161543145?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013607",
               "storage": "256GB",
               "color": "Wolkenweiss",
               "colorHex": "#F5F0E8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161527484?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013608",
               "storage": "256GB",
               "color": "Lichtgold",
               "colorHex": "#D4C4A0",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161544572?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013609",
               "storage": "256GB",
               "color": "Himmelblau",
               "colorHex": "#8CB4D8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161539927?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013611",
               "storage": "512GB",
               "color": "Wolkenweiss",
               "colorHex": "#F5F0E8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1449,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161537034?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013612",
               "storage": "512GB",
               "color": "Lichtgold",
               "colorHex": "#D4C4A0",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1449,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161545751?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013613",
               "storage": "512GB",
               "color": "Himmelblau",
               "colorHex": "#8CB4D8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1449,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161538234?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013614",
@@ -107,7 +131,9 @@
               "storage": "1TB",
               "color": "Wolkenweiss",
               "colorHex": "#F5F0E8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1699,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161525987?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013616",
@@ -121,7 +147,9 @@
               "storage": "1TB",
               "color": "Himmelblau",
               "colorHex": "#8CB4D8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1699,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161538743?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -133,35 +161,45 @@
               "storage": "256GB",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1279,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161551179?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013586",
               "storage": "256GB",
               "color": "Cosmic Orange",
               "colorHex": "#D98040",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1279,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161544734?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013587",
               "storage": "256GB",
               "color": "Tiefblau",
               "colorHex": "#2D4A7A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1279,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161554000?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013588",
               "storage": "512GB",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1519,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161551891?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013590",
               "storage": "512GB",
               "color": "Tiefblau",
               "colorHex": "#2D4A7A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1519,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161554457?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -173,14 +211,18 @@
               "storage": "256GB",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1419,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161556413?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013596",
               "storage": "256GB",
               "color": "Tiefblau",
               "colorHex": "#2D4A7A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1419,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161555389?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013597",
@@ -199,35 +241,45 @@
               "storage": "128GB",
               "color": "Schwarz",
               "colorHex": "#3C3C3C",
-              "connectivity": null
+              "connectivity": null,
+              "price": 809,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144660630?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2954266",
               "storage": "128GB",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 809,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144663041?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2954269",
               "storage": "128GB",
               "color": "Pink",
               "colorHex": "#F4A5B8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 809,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144662483?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2954272",
               "storage": "128GB",
               "color": "Ultramarin",
               "colorHex": "#3F51B5",
-              "connectivity": null
+              "connectivity": null,
+              "price": 809,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144662897?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2954274",
               "storage": "128GB",
               "color": "Blaugruen",
               "colorHex": "#4F8F8A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 809,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144662685?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -272,42 +324,54 @@
               "storage": "128GB",
               "color": "Schwarz",
               "colorHex": "#3C3C3C",
-              "connectivity": null
+              "connectivity": null,
+              "price": 579,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_150500409?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2982462",
               "storage": "128GB",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 579,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_150500641?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2982463",
               "storage": "256GB",
               "color": "Schwarz",
               "colorHex": "#3C3C3C",
-              "connectivity": null
+              "connectivity": null,
+              "price": 829,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_150500432?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2982464",
               "storage": "256GB",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 829,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_150500665?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2982466",
               "storage": "512GB",
               "color": "Schwarz",
               "colorHex": "#3C3C3C",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1059,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_150500482?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2982468",
               "storage": "512GB",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1059,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_150500720?x=200&y=200&format=png&quality=80"
             }
           ]
         }
@@ -324,21 +388,27 @@
               "storage": "128GB",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 379,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151020109?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2984280",
               "storage": "128GB",
               "color": "Blau",
               "colorHex": "#6B7FAD",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 379,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151020065?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2984219",
               "storage": "256GB",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 499,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151019976?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -350,56 +420,72 @@
               "storage": "128GB",
               "color": "Space Grau",
               "colorHex": "#7A7A7A",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 529,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145991252?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2961508",
               "storage": "128GB",
               "color": "Blau",
               "colorHex": "#6B7FAD",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 529,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145991301?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2961509",
               "storage": "128GB",
               "color": "Polarstern",
               "colorHex": "#F4E8CE",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 539,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145991300?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2961511",
               "storage": "128GB",
               "color": "Violett",
               "colorHex": "#9B8DC4",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 539,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145991339?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2961512",
               "storage": "256GB",
               "color": "Space Grau",
               "colorHex": "#7A7A7A",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 659,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145991351?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2961514",
               "storage": "256GB",
               "color": "Blau",
               "colorHex": "#6B7FAD",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 659,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145991352?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2961613",
               "storage": "512GB",
               "color": "Space Grau",
               "colorHex": "#7A7A7A",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 1059,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145991615?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2961616",
               "storage": "512GB",
               "color": "Violett",
               "colorHex": "#9B8DC4",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 1099,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145991653?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -411,21 +497,27 @@
               "storage": "128GB",
               "color": "Space Grau",
               "colorHex": "#7A7A7A",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 589,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151022569?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2984224",
               "storage": "128GB",
               "color": "Blau",
               "colorHex": "#6B7FAD",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 589,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151022526?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2984237",
               "storage": "256GB",
               "color": "Space Grau",
               "colorHex": "#7A7A7A",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 719,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151022659?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2984247",
@@ -451,14 +543,18 @@
               "storage": "256GB",
               "color": "Space Schwarz",
               "colorHex": "#2E2E2E",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 1049,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_163872112?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3019821",
               "storage": "256GB",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 1059,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_163868700?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -470,21 +566,27 @@
               "storage": "256GB",
               "color": "Space Schwarz",
               "colorHex": "#2E2E2E",
-              "connectivity": "WiFi"
+              "connectivity": "WiFi",
+              "price": 1449,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_163871632?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3019858",
               "storage": "256GB",
               "color": "Space Schwarz",
               "colorHex": "#2E2E2E",
-              "connectivity": "WiFi + Cellular"
+              "connectivity": "WiFi + Cellular",
+              "price": 1629,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_163877671?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3019860",
               "storage": "512GB",
               "color": "Space Schwarz",
               "colorHex": "#2E2E2E",
-              "connectivity": "WiFi + Cellular"
+              "connectivity": "WiFi + Cellular",
+              "price": 1949,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_163877750?x=200&y=200&format=png&quality=80"
             }
           ]
         }
@@ -501,21 +603,27 @@
               "storage": "256GB",
               "color": "Mitternacht",
               "colorHex": "#2E3642",
-              "connectivity": null
+              "connectivity": null,
+              "price": 979,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151086192?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2984502",
               "storage": "256GB",
               "color": "Himmelblau",
               "colorHex": "#8CB4D8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 979,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151085935?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2984503",
               "storage": "512GB",
               "color": "Himmelblau",
               "colorHex": "#8CB4D8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1109,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151086059?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2984497",
@@ -541,24 +649,72 @@
               "storage": "256GB",
               "color": "Himmelblau",
               "colorHex": "#8CB4D8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1269,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151086723?x=200&y=200&format=png&quality=80"
             }
           ]
         },
         {
           "name": "MacBook Air 13\" M5 (2026)",
           "variants": [
-            { "articleNumber": "3041065", "storage": "512GB", "color": "Mitternacht", "colorHex": "#2E3642", "connectivity": null },
-            { "articleNumber": "3041068", "storage": "512GB", "color": "Polarstern", "colorHex": "#F4E8CE", "connectivity": null },
-            { "articleNumber": "3041071", "storage": "512GB", "color": "Himmelblau", "colorHex": "#8CB4D8", "connectivity": null },
-            { "articleNumber": "3041074", "storage": "512GB", "color": "Space Grau", "colorHex": "#7A7A7A", "connectivity": null },
-            { "articleNumber": "3041076", "storage": "1TB 24GB", "color": "Polarstern", "colorHex": "#F4E8CE", "connectivity": null }
+            {
+              "articleNumber": "3041065",
+              "storage": "512GB",
+              "color": "Mitternacht",
+              "colorHex": "#2E3642",
+              "connectivity": null,
+              "price": 1199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172374459?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3041068",
+              "storage": "512GB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": null,
+              "price": 1199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172269786?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3041071",
+              "storage": "512GB",
+              "color": "Himmelblau",
+              "colorHex": "#8CB4D8",
+              "connectivity": null,
+              "price": 1199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172267574?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3041074",
+              "storage": "512GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": null,
+              "price": 1199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172268757?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3041076",
+              "storage": "1TB 24GB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": null,
+              "price": 1699,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172269072?x=200&y=200&format=png&quality=80"
+            }
           ]
         },
         {
           "name": "MacBook Air 15\" M5 (2026)",
           "variants": [
-            { "articleNumber": "3041077", "storage": "512GB", "color": "Mitternacht", "colorHex": "#2E3642", "connectivity": null }
+            {
+              "articleNumber": "3041077",
+              "storage": "512GB",
+              "color": "Mitternacht",
+              "colorHex": "#2E3642",
+              "connectivity": null
+            }
           ]
         },
         {
@@ -583,21 +739,95 @@
         {
           "name": "MacBook Pro 14\" M5 (2026)",
           "variants": [
-            { "articleNumber": "3041103", "storage": "1TB 32GB M5", "color": "Space Grau", "colorHex": "#7A7A7A", "connectivity": null },
-            { "articleNumber": "3041089", "storage": "1TB 24GB M5 Pro", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null },
-            { "articleNumber": "3041092", "storage": "1TB 24GB M5 Pro", "color": "Silber", "colorHex": "#D4D4D4", "connectivity": null },
-            { "articleNumber": "3041093", "storage": "2TB 24GB M5 Pro", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null }
+            {
+              "articleNumber": "3041103",
+              "storage": "1TB 32GB M5",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3041089",
+              "storage": "1TB 24GB M5 Pro",
+              "color": "Space Schwarz",
+              "colorHex": "#2E2E2E",
+              "connectivity": null,
+              "price": 2499,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172268433?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3041092",
+              "storage": "1TB 24GB M5 Pro",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null,
+              "price": 2499,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172272501?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3041093",
+              "storage": "2TB 24GB M5 Pro",
+              "color": "Space Schwarz",
+              "colorHex": "#2E2E2E",
+              "connectivity": null,
+              "price": 3199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172272534?x=200&y=200&format=png&quality=80"
+            }
           ]
         },
         {
           "name": "MacBook Pro 16\" M5 (2026)",
           "variants": [
-            { "articleNumber": "3041095", "storage": "1TB 24GB M5 Pro", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null },
-            { "articleNumber": "3041099", "storage": "1TB 24GB M5 Pro", "color": "Silber", "colorHex": "#D4D4D4", "connectivity": null },
-            { "articleNumber": "3041100", "storage": "1TB 48GB M5 Pro", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null },
-            { "articleNumber": "3041097", "storage": "2TB 36GB M5 Max", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null },
-            { "articleNumber": "3041098", "storage": "2TB 48GB M5 Max", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null },
-            { "articleNumber": "3041102", "storage": "2TB 48GB M5 Max", "color": "Silber", "colorHex": "#D4D4D4", "connectivity": null }
+            {
+              "articleNumber": "3041095",
+              "storage": "1TB 24GB M5 Pro",
+              "color": "Space Schwarz",
+              "colorHex": "#2E2E2E",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3041099",
+              "storage": "1TB 24GB M5 Pro",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null,
+              "price": 2999,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172271176?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3041100",
+              "storage": "1TB 48GB M5 Pro",
+              "color": "Space Schwarz",
+              "colorHex": "#2E2E2E",
+              "connectivity": null,
+              "price": 3499,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172271728?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3041097",
+              "storage": "2TB 36GB M5 Max",
+              "color": "Space Schwarz",
+              "colorHex": "#2E2E2E",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3041098",
+              "storage": "2TB 48GB M5 Max",
+              "color": "Space Schwarz",
+              "colorHex": "#2E2E2E",
+              "connectivity": null,
+              "price": 4999,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172270553?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3041102",
+              "storage": "2TB 48GB M5 Max",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null,
+              "price": 4999,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172270798?x=200&y=200&format=png&quality=80"
+            }
           ]
         }
       ]
@@ -613,14 +843,18 @@
               "storage": "256GB 16GB",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 699,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146492399?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2964718",
               "storage": "512GB 24GB",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146492350?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -632,49 +866,63 @@
               "storage": "256GB 16GB 8-Core",
               "color": "Gruen",
               "colorHex": "#4CAF50",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1499,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146445710?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2964541",
               "storage": "256GB 16GB 8-Core",
               "color": "Blau",
               "colorHex": "#6B7FAD",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1499,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146445757?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2964538",
               "storage": "256GB 16GB 10-Core",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1999,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146445593?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2964546",
               "storage": "512GB 16GB 10-Core",
               "color": "Gruen",
               "colorHex": "#4CAF50",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1999,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146446007?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2964548",
               "storage": "512GB 16GB 10-Core",
               "color": "Blau",
               "colorHex": "#6B7FAD",
-              "connectivity": null
+              "connectivity": null,
+              "price": 1999,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146446087?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2964534",
               "storage": "512GB 24GB 10-Core",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 2249,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146445273?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2964536",
               "storage": "512GB 24GB 10-Core",
               "color": "Blau",
               "colorHex": "#6B7FAD",
-              "connectivity": null
+              "connectivity": null,
+              "price": 2249,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146445430?x=200&y=200&format=png&quality=80"
             }
           ]
         }
@@ -691,35 +939,45 @@
               "storage": "Standard",
               "color": "Space Grau S/M",
               "colorHex": "#7A7A7A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 449,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161565821?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013626",
               "storage": "Standard",
               "color": "Diamantschwarz S/M",
               "colorHex": "#1A1A1A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 449,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161562068?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013630",
               "storage": "Standard",
               "color": "Rosegold S/M",
               "colorHex": "#C4A080",
-              "connectivity": null
+              "connectivity": null,
+              "price": 449,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161563716?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013632",
               "storage": "Standard",
               "color": "Silber S/M",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 449,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161564375?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013629",
               "storage": "Standard",
               "color": "Space Grau M/L",
               "colorHex": "#7A7A7A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 449,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161565337?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -731,42 +989,54 @@
               "storage": "Standard",
               "color": "Diamantschwarz S/M",
               "colorHex": "#1A1A1A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 479,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161566698?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013636",
               "storage": "Standard",
               "color": "Space Grau S/M",
               "colorHex": "#7A7A7A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 479,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161568530?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013635",
               "storage": "Standard",
               "color": "Diamantschwarz M/L",
               "colorHex": "#1A1A1A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 479,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161566534?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013637",
               "storage": "Standard",
               "color": "Space Grau M/L",
               "colorHex": "#7A7A7A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 479,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161567833?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013639",
               "storage": "Standard",
               "color": "Rosegold M/L",
               "colorHex": "#C4A080",
-              "connectivity": null
+              "connectivity": null,
+              "price": 479,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161566882?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013641",
               "storage": "Standard",
               "color": "Silber M/L",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 479,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161567431?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -778,28 +1048,36 @@
               "storage": "Standard",
               "color": "Polarstern S/M",
               "colorHex": "#F4E8CE",
-              "connectivity": null
+              "connectivity": null,
+              "price": 269,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161559089?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013619",
               "storage": "Standard",
               "color": "Polarstern M/L",
               "colorHex": "#F4E8CE",
-              "connectivity": null
+              "connectivity": null,
+              "price": 269,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161559694?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013620",
               "storage": "Standard",
               "color": "Mitternacht S/M",
               "colorHex": "#2E3642",
-              "connectivity": null
+              "connectivity": null,
+              "price": 269,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161556280?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013621",
               "storage": "Standard",
               "color": "Mitternacht M/L",
               "colorHex": "#2E3642",
-              "connectivity": null
+              "connectivity": null,
+              "price": 269,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161557477?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -811,21 +1089,27 @@
               "storage": "Standard",
               "color": "Polarstern M/L",
               "colorHex": "#F4E8CE",
-              "connectivity": null
+              "connectivity": null,
+              "price": 294,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161563316?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013624",
               "storage": "Standard",
               "color": "Mitternacht S/M",
               "colorHex": "#2E3642",
-              "connectivity": null
+              "connectivity": null,
+              "price": 294,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161562144?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013625",
               "storage": "Standard",
               "color": "Mitternacht M/L",
               "colorHex": "#2E3642",
-              "connectivity": null
+              "connectivity": null,
+              "price": 294,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_167751978?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -837,14 +1121,18 @@
               "storage": "Standard",
               "color": "Natur",
               "colorHex": "#C4B9A8",
-              "connectivity": null
+              "connectivity": null,
+              "price": 889,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161564077?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3013702",
               "storage": "Standard",
               "color": "Schwarz",
               "colorHex": "#1A1A1A",
-              "connectivity": null
+              "connectivity": null,
+              "price": 889,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161555437?x=200&y=200&format=png&quality=80"
             }
           ]
         }
@@ -861,7 +1149,9 @@
               "storage": "Standard",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 149,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144665626?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -873,7 +1163,9 @@
               "storage": "Standard",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 199,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144665910?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -885,7 +1177,9 @@
               "storage": "Standard",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 249,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161510623?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -897,14 +1191,18 @@
               "storage": "Standard",
               "color": "Mitternacht",
               "colorHex": "#2E3642",
-              "connectivity": null
+              "connectivity": null,
+              "price": 579,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144668289?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2954330",
               "storage": "Standard",
               "color": "Blau",
               "colorHex": "#6B7FAD",
-              "connectivity": null
+              "connectivity": null,
+              "price": 579,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144668218?x=200&y=200&format=png&quality=80"
             }
           ]
         }
@@ -921,14 +1219,18 @@
               "storage": "64GB",
               "color": "Schwarz",
               "colorHex": "#3C3C3C",
-              "connectivity": null
+              "connectivity": null,
+              "price": 157,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98685611?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2841678",
               "storage": "128GB",
               "color": "Schwarz",
               "colorHex": "#3C3C3C",
-              "connectivity": null
+              "connectivity": null,
+              "price": 189,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98685609?x=200&y=200&format=png&quality=80"
             }
           ]
         }
@@ -945,7 +1247,9 @@
               "storage": "Standard",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 149,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_140627076?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -957,7 +1261,9 @@
               "storage": "Standard",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 89,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_130941432?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -969,7 +1275,9 @@
               "storage": "Standard",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 142,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151099556?x=200&y=200&format=png&quality=80"
             }
           ]
         }
@@ -986,14 +1294,18 @@
               "storage": "Standard",
               "color": "Mitternacht",
               "colorHex": "#2E3642",
-              "connectivity": null
+              "connectivity": null,
+              "price": 349,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_159519239?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2993079",
               "storage": "Standard",
               "color": "Weiss",
               "colorHex": "#F2F1EB",
-              "connectivity": null
+              "connectivity": null,
+              "price": 349,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_159519237?x=200&y=200&format=png&quality=80"
             }
           ]
         },
@@ -1005,21 +1317,27 @@
               "storage": "Standard",
               "color": "Mitternacht",
               "colorHex": "#2E3642",
-              "connectivity": null
+              "connectivity": null,
+              "price": 109,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_142947063?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2771268",
               "storage": "Standard",
               "color": "Blau",
               "colorHex": "#6B7FAD",
-              "connectivity": null
+              "connectivity": null,
+              "price": 109,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_88186777?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "2771269",
               "storage": "Standard",
               "color": "Orange",
               "colorHex": "#E87040",
-              "connectivity": null
+              "connectivity": null,
+              "price": 109,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_88186956?x=200&y=200&format=png&quality=80"
             }
           ]
         }
@@ -1036,14 +1354,41 @@
               "storage": "1er Pack",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 31,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_169857500?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3034650",
               "storage": "4er Pack",
               "color": "Silber",
               "colorHex": "#D4D4D4",
-              "connectivity": null
+              "connectivity": null,
+              "price": 119,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_169857907?x=200&y=200&format=png&quality=80"
+            }
+          ]
+        },
+        {
+          "name": "AirTag 1. Gen",
+          "variants": [
+            {
+              "articleNumber": "2731996",
+              "storage": "1er Pack",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null,
+              "price": 39,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_83563440?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "2732002",
+              "storage": "4er Pack",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null,
+              "price": 129,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_147528838?x=200&y=200&format=png&quality=80"
             }
           ]
         }

@@ -81,17 +81,28 @@ export default function ColorAvailabilityGrid({
                            text-left transition-all active:scale-[0.97]
                            ${isAvailablePrimary ? "border-[1.5px] border-apple-green" : anyAvailable ? "border-[1.5px] border-apple-yellow" : "border-[1.5px] border-gray-100"}`}
               >
-                {/* Color swatch */}
-                <div
-                  className="w-8 h-8 rounded-full flex-shrink-0 border border-gray-200"
-                  style={{ backgroundColor: variant.colorHex }}
-                />
+                {/* Color swatch or product image */}
+                {variant.imageUrl ? (
+                  <img
+                    src={variant.imageUrl}
+                    alt={variant.color}
+                    className="w-8 h-8 rounded-lg object-contain flex-shrink-0"
+                  />
+                ) : (
+                  <div
+                    className="w-8 h-8 rounded-full flex-shrink-0 border border-gray-200"
+                    style={{ backgroundColor: variant.colorHex }}
+                  />
+                )}
 
                 {/* Info */}
                 <div className="flex-1 min-w-0">
                   <p className="text-[13px] font-medium text-apple-dark truncate">
                     {variant.color}
                   </p>
+                  {variant.price && (
+                    <p className="text-[11px] text-apple-gray">{variant.price} €</p>
+                  )}
 
                   {!stock && !loading && (
                     <p className="text-[11px] text-apple-gray">—</p>
