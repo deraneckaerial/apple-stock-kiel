@@ -151,11 +151,14 @@ function ResultContent() {
           <p className="text-[17px] font-semibold text-apple-dark">
             {variantLabel}
           </p>
-          {productInfo.variant.price && (
-            <p className="text-[15px] text-apple-gray mt-1">
-              {productInfo.variant.price} €
-            </p>
-          )}
+          <a
+            href={`https://www.mediamarkt.de/de/product/_-${productInfo.variant.articleNumber}.html`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[13px] text-apple-blue font-medium mt-1 inline-block"
+          >
+            Preis auf mediamarkt.de →
+          </a>
         </div>
       )}
 

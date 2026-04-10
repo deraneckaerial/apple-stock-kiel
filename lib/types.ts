@@ -4,7 +4,6 @@ export interface Variant {
   color: string;
   colorHex: string;
   connectivity: "WiFi" | "WiFi + Cellular" | null;
-  price?: number;
   imageUrl?: string;
 }
 

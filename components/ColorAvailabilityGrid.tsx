@@ -100,10 +100,6 @@ export default function ColorAvailabilityGrid({
                   <p className="text-[13px] font-medium text-apple-dark truncate">
                     {variant.color}
                   </p>
-                  {variant.price && (
-                    <p className="text-[11px] text-apple-gray">{variant.price} €</p>
-                  )}
-
                   {!stock && !loading && (
                     <p className="text-[11px] text-apple-gray">—</p>
                   )}
