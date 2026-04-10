@@ -41,6 +41,7 @@ function ResultContent() {
 
   const [stock, setStock] = useState<StockResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [warning, setWarning] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
   const productInfo = findVariantByArticle(articleNumber);
@@ -84,7 +85,7 @@ function ResultContent() {
           const cached = localStorage.getItem(`stock-${articleNumber}`);
           if (cached) {
             setStock(JSON.parse(cached));
-            setError("Offline-Daten — moeglicherweise veraltet");
+            setWarning("Offline-Daten — moeglicherweise veraltet");
             setLoading(false);
             return;
           }
@@ -201,6 +202,13 @@ function ResultContent() {
           >
             Erneut versuchen
           </button>
+        </div>
+      )}
+
+      {/* Stale data warning (non-blocking) */}
+      {warning && stock && !loading && (
+        <div className="bg-yellow-50 rounded-[12px] px-4 py-2.5 mb-3">
+          <p className="text-xs text-yellow-700">{warning}</p>
         </div>
       )}
 

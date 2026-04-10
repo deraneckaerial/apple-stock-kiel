@@ -54,6 +54,6 @@ export function findVariant(
     (v) =>
       v.storage === storage &&
       v.color === color &&
-      (v.connectivity === null || v.connectivity === connectivity)
+      (connectivity === "" ? v.connectivity === null : v.connectivity === connectivity)
   );
 }

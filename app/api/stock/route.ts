@@ -25,27 +25,19 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(cached);
   }
 
-  // Rate limiting
+  // Rate limiting — reserve slot before waiting to prevent concurrent bypass
   const now = Date.now();
-  const timeSinceLastRequest = now - lastRequestTime;
-  if (timeSinceLastRequest < MIN_REQUEST_INTERVAL) {
-    await new Promise((r) =>
-      setTimeout(r, MIN_REQUEST_INTERVAL - timeSinceLastRequest)
-    );
+  const waitMs = Math.max(0, MIN_REQUEST_INTERVAL - (now - lastRequestTime));
+  lastRequestTime = now + waitMs;
+  if (waitMs > 0) {
+    await new Promise((r) => setTimeout(r, waitMs));
   }
-  lastRequestTime = Date.now();
 
   try {
     const data = await fetchStockFromMediaMarkt(articleNumber);
     stockCache.set(articleNumber, data);
     return NextResponse.json(data);
   } catch (error) {
-    // Return stale cache if available
-    const stale = stockCache.get(articleNumber);
-    if (stale) {
-      return NextResponse.json(stale);
-    }
-
     console.error("[api/stock] Error:", error);
     return NextResponse.json(
       { error: "Bestandsdaten konnten nicht geladen werden" },

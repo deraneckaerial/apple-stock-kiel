@@ -19,7 +19,13 @@ export function buildShareText(data: ShareData): string {
 
 export async function shareOrFallback(text: string): Promise<void> {
   if (navigator.share) {
-    await navigator.share({ text });
+    try {
+      await navigator.share({ text });
+    } catch (err) {
+      // User dismissed share sheet — not an error
+      if (err instanceof Error && err.name === "AbortError") return;
+      throw err;
+    }
   } else {
     const encoded = encodeURIComponent(text);
     window.open(`https://wa.me/?text=${encoded}`, "_blank");

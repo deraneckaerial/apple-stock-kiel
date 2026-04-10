@@ -34,9 +34,6 @@ export default function ProductSelector({ onSelect }: ProductSelectorProps) {
     storage ? filterVariants(allVariants, { storage }) : allVariants,
     "color"
   ) as string[];
-  const colorHexMap = new Map(
-    allVariants.map((v) => [v.color, v.colorHex])
-  );
   const connectivities = getUniqueValues(
     filterVariants(allVariants, { storage: storage || undefined, color: color || undefined }),
     "connectivity"
