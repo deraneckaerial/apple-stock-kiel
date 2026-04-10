@@ -148,10 +148,42 @@ function ResultContent() {
         </div>
       )}
 
-      {/* Loading */}
+      {/* Product not in catalog */}
+      {!productInfo && !loading && (
+        <div className="bg-yellow-50 rounded-[12px] p-4 mb-4">
+          <p className="text-sm text-yellow-800">
+            Produkt nicht im Katalog gefunden (Artikel: {articleNumber})
+          </p>
+          <button
+            onClick={() => router.push("/")}
+            className="mt-2 text-sm text-apple-blue font-medium"
+          >
+            Zurueck zur Auswahl
+          </button>
+        </div>
+      )}
+
+      {/* Loading skeleton */}
       {loading && (
-        <div className="flex items-center justify-center py-20">
-          <Loader2 className="w-8 h-8 text-apple-blue animate-spin" />
+        <div className="animate-pulse">
+          <div className="bg-white rounded-[16px] p-5 shadow-[0_2px_12px_rgba(0,0,0,0.06)] mb-3">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="w-12 h-12 rounded-full bg-gray-200" />
+              <div>
+                <div className="w-16 h-3 bg-gray-200 rounded mb-1.5" />
+                <div className="w-32 h-5 bg-gray-200 rounded" />
+              </div>
+            </div>
+            <div className="w-full h-12 bg-gray-100 rounded-[10px] mb-3" />
+            <div className="flex gap-2">
+              <div className="flex-1 h-10 bg-gray-100 rounded-[10px]" />
+              <div className="flex-1 h-10 bg-gray-100 rounded-[10px]" />
+            </div>
+          </div>
+          <div className="flex gap-2">
+            <div className="flex-1 bg-white rounded-[12px] p-3.5 shadow-[0_1px_6px_rgba(0,0,0,0.04)] h-32" />
+            <div className="flex-1 bg-white rounded-[12px] p-3.5 shadow-[0_1px_6px_rgba(0,0,0,0.04)] h-32" />
+          </div>
         </div>
       )}
 
