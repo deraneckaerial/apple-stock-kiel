@@ -9,23 +9,23 @@ export interface StoreInfo {
 export const STORES: StoreInfo[] = [
   {
     id: "441",
-    name: "Media Markt Citti-Park Kiel",
+    name: "MediaMarkt Kiel",
     shortName: "Citti-Park Kiel",
-    address: "Muehlendamm 1, 24113 Kiel",
+    address: "Mühlendamm 5, 24113 Kiel",
     isPrimary: true,
   },
   {
     id: "1250",
-    name: "Media Markt Sophienhof",
+    name: "MediaMarkt Kiel-Sophienhof",
     shortName: "Sophienhof",
     address: "Sophienblatt 20, 24103 Kiel",
     isPrimary: false,
   },
   {
-    id: "368",
-    name: "Media Markt Schwentinental",
+    id: "440",
+    name: "MediaMarkt Schwentinental",
     shortName: "Schwentinental",
-    address: "Mergenthaler Str. 4, 24223 Schwentinental",
+    address: "Mergenthalerstr. 1, 24223 Schwentinental",
     isPrimary: false,
   },
 ];
