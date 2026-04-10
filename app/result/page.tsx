@@ -149,7 +149,7 @@ function ResultContent() {
       )}
 
       {/* Product not in catalog */}
-      {!productInfo && !loading && (
+      {!productInfo && !loading && articleNumber && (
         <div className="bg-yellow-50 rounded-[12px] p-4 mb-4">
           <p className="text-sm text-yellow-800">
             Produkt nicht im Katalog gefunden (Artikel: {articleNumber})
