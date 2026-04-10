@@ -206,7 +206,7 @@ function ResultContent() {
 
       {/* Results */}
       {stock && !loading && (
-        <>
+        <div style={{ animation: "fadeIn 0.3s ease-out" }}>
           {/* Primary store */}
           {primaryStock && (
             <div className="mb-3">
@@ -265,7 +265,7 @@ function ResultContent() {
               Uhr
             </p>
           )}
-        </>
+        </div>
       )}
     </main>
   );
