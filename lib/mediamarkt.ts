@@ -202,7 +202,7 @@ export async function fetchStockFromMediaMarkt(
 
     const json = await response.json();
     const storesData =
-      json?.data?.getClosestStoresByZipCodeOrCityWithFoundLocation?.stores ??
+      json?.data?.closestStoresWithFoundLocation?.stores ??
       json?.data?.closestStoresByZipCodeOrCityWithFoundLocation?.stores ??
       [];
 
