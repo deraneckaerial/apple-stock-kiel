@@ -4,275 +4,309 @@
       "name": "iPhone",
       "models": [
         {
+          "name": "iPhone 17",
+          "variants": [
+            {
+              "articleNumber": "3013575",
+              "storage": "256GB",
+              "color": "Schwarz",
+              "colorHex": "#3C3C3C",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013576",
+              "storage": "256GB",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013577",
+              "storage": "256GB",
+              "color": "Nebelblau",
+              "colorHex": "#8BA8C7",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013578",
+              "storage": "256GB",
+              "color": "Lavendel",
+              "colorHex": "#C4A7D4",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013579",
+              "storage": "256GB",
+              "color": "Salbei",
+              "colorHex": "#A8C4A0",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "iPhone 17 Air",
+          "variants": [
+            {
+              "articleNumber": "3013606",
+              "storage": "256GB",
+              "color": "Space Schwarz",
+              "colorHex": "#2E2E2E",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013607",
+              "storage": "256GB",
+              "color": "Wolkenweiss",
+              "colorHex": "#F5F0E8",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013608",
+              "storage": "256GB",
+              "color": "Lichtgold",
+              "colorHex": "#D4C4A0",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013609",
+              "storage": "256GB",
+              "color": "Himmelblau",
+              "colorHex": "#8CB4D8",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013611",
+              "storage": "512GB",
+              "color": "Wolkenweiss",
+              "colorHex": "#F5F0E8",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013612",
+              "storage": "512GB",
+              "color": "Lichtgold",
+              "colorHex": "#D4C4A0",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013613",
+              "storage": "512GB",
+              "color": "Himmelblau",
+              "colorHex": "#8CB4D8",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013614",
+              "storage": "1TB",
+              "color": "Space Schwarz",
+              "colorHex": "#2E2E2E",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013615",
+              "storage": "1TB",
+              "color": "Wolkenweiss",
+              "colorHex": "#F5F0E8",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013616",
+              "storage": "1TB",
+              "color": "Lichtgold",
+              "colorHex": "#D4C4A0",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013617",
+              "storage": "1TB",
+              "color": "Himmelblau",
+              "colorHex": "#8CB4D8",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "iPhone 17 Pro",
+          "variants": [
+            {
+              "articleNumber": "3013585",
+              "storage": "256GB",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013586",
+              "storage": "256GB",
+              "color": "Cosmic Orange",
+              "colorHex": "#D98040",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013587",
+              "storage": "256GB",
+              "color": "Tiefblau",
+              "colorHex": "#2D4A7A",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013588",
+              "storage": "512GB",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013590",
+              "storage": "512GB",
+              "color": "Tiefblau",
+              "colorHex": "#2D4A7A",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "iPhone 17 Pro Max",
+          "variants": [
+            {
+              "articleNumber": "3013594",
+              "storage": "256GB",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013596",
+              "storage": "256GB",
+              "color": "Tiefblau",
+              "colorHex": "#2D4A7A",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013597",
+              "storage": "512GB",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            }
+          ]
+        },
+        {
           "name": "iPhone 16",
           "variants": [
             {
-              "articleNumber": "3013030",
+              "articleNumber": "2954263",
               "storage": "128GB",
               "color": "Schwarz",
-              "colorHex": "#1c1c1e",
+              "colorHex": "#3C3C3C",
               "connectivity": null
             },
             {
-              "articleNumber": "3013031",
+              "articleNumber": "2954266",
               "storage": "128GB",
               "color": "Weiss",
-              "colorHex": "#f5f5f0",
+              "colorHex": "#F2F1EB",
               "connectivity": null
             },
             {
-              "articleNumber": "3013032",
-              "storage": "128GB",
-              "color": "Blaugruen",
-              "colorHex": "#3d7a6c",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013033",
-              "storage": "128GB",
-              "color": "Ultramarin",
-              "colorHex": "#3a4f8c",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013034",
+              "articleNumber": "2954269",
               "storage": "128GB",
               "color": "Pink",
-              "colorHex": "#e8a0b0",
+              "colorHex": "#F4A5B8",
               "connectivity": null
             },
             {
-              "articleNumber": "3013035",
-              "storage": "256GB",
-              "color": "Schwarz",
-              "colorHex": "#1c1c1e",
+              "articleNumber": "2954272",
+              "storage": "128GB",
+              "color": "Ultramarin",
+              "colorHex": "#3F51B5",
               "connectivity": null
             },
             {
-              "articleNumber": "3013036",
-              "storage": "256GB",
-              "color": "Weiss",
-              "colorHex": "#f5f5f0",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013037",
-              "storage": "256GB",
+              "articleNumber": "2954274",
+              "storage": "128GB",
               "color": "Blaugruen",
-              "colorHex": "#3d7a6c",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013038",
-              "storage": "256GB",
-              "color": "Ultramarin",
-              "colorHex": "#3a4f8c",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013039",
-              "storage": "256GB",
-              "color": "Pink",
-              "colorHex": "#e8a0b0",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013040",
-              "storage": "512GB",
-              "color": "Schwarz",
-              "colorHex": "#1c1c1e",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013041",
-              "storage": "512GB",
-              "color": "Weiss",
-              "colorHex": "#f5f5f0",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013042",
-              "storage": "512GB",
-              "color": "Ultramarin",
-              "colorHex": "#3a4f8c",
+              "colorHex": "#4F8F8A",
               "connectivity": null
             }
           ]
         },
         {
-          "name": "iPhone 16 Pro",
+          "name": "iPhone 16 Plus",
           "variants": [
             {
-              "articleNumber": "3013050",
+              "articleNumber": "2954293",
               "storage": "128GB",
-              "color": "Titan Schwarz",
-              "colorHex": "#2c2c2e",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
               "connectivity": null
             },
             {
-              "articleNumber": "3013051",
+              "articleNumber": "2954295",
               "storage": "128GB",
-              "color": "Titan Natur",
-              "colorHex": "#c8b89a",
+              "color": "Pink",
+              "colorHex": "#F4A5B8",
               "connectivity": null
             },
             {
-              "articleNumber": "3013052",
+              "articleNumber": "2954297",
               "storage": "128GB",
-              "color": "Titan Weiss",
-              "colorHex": "#f0ece4",
+              "color": "Blaugruen",
+              "colorHex": "#4F8F8A",
               "connectivity": null
             },
             {
-              "articleNumber": "3013053",
-              "storage": "128GB",
-              "color": "Titan Wueste",
-              "colorHex": "#a8906a",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013054",
+              "articleNumber": "2954300",
               "storage": "256GB",
-              "color": "Titan Schwarz",
-              "colorHex": "#2c2c2e",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013055",
-              "storage": "256GB",
-              "color": "Titan Natur",
-              "colorHex": "#c8b89a",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013056",
-              "storage": "256GB",
-              "color": "Titan Weiss",
-              "colorHex": "#f0ece4",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013057",
-              "storage": "256GB",
-              "color": "Titan Wueste",
-              "colorHex": "#a8906a",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013058",
-              "storage": "512GB",
-              "color": "Titan Schwarz",
-              "colorHex": "#2c2c2e",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013059",
-              "storage": "512GB",
-              "color": "Titan Natur",
-              "colorHex": "#c8b89a",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013060",
-              "storage": "512GB",
-              "color": "Titan Weiss",
-              "colorHex": "#f0ece4",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013061",
-              "storage": "1TB",
-              "color": "Titan Schwarz",
-              "colorHex": "#2c2c2e",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013062",
-              "storage": "1TB",
-              "color": "Titan Natur",
-              "colorHex": "#c8b89a",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013063",
-              "storage": "1TB",
-              "color": "Titan Wueste",
-              "colorHex": "#a8906a",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
               "connectivity": null
             }
           ]
         },
         {
-          "name": "iPhone 16 Pro Max",
+          "name": "iPhone 16e",
           "variants": [
             {
-              "articleNumber": "3013070",
-              "storage": "256GB",
-              "color": "Titan Schwarz",
-              "colorHex": "#2c2c2e",
+              "articleNumber": "2982461",
+              "storage": "128GB",
+              "color": "Schwarz",
+              "colorHex": "#3C3C3C",
               "connectivity": null
             },
             {
-              "articleNumber": "3013071",
-              "storage": "256GB",
-              "color": "Titan Natur",
-              "colorHex": "#c8b89a",
+              "articleNumber": "2982462",
+              "storage": "128GB",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
               "connectivity": null
             },
             {
-              "articleNumber": "3013072",
+              "articleNumber": "2982463",
               "storage": "256GB",
-              "color": "Titan Weiss",
-              "colorHex": "#f0ece4",
+              "color": "Schwarz",
+              "colorHex": "#3C3C3C",
               "connectivity": null
             },
             {
-              "articleNumber": "3013073",
+              "articleNumber": "2982464",
               "storage": "256GB",
-              "color": "Titan Wueste",
-              "colorHex": "#a8906a",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
               "connectivity": null
             },
             {
-              "articleNumber": "3013074",
+              "articleNumber": "2982466",
               "storage": "512GB",
-              "color": "Titan Schwarz",
-              "colorHex": "#2c2c2e",
+              "color": "Schwarz",
+              "colorHex": "#3C3C3C",
               "connectivity": null
             },
             {
-              "articleNumber": "3013075",
+              "articleNumber": "2982468",
               "storage": "512GB",
-              "color": "Titan Natur",
-              "colorHex": "#c8b89a",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013076",
-              "storage": "512GB",
-              "color": "Titan Weiss",
-              "colorHex": "#f0ece4",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013077",
-              "storage": "1TB",
-              "color": "Titan Schwarz",
-              "colorHex": "#2c2c2e",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013078",
-              "storage": "1TB",
-              "color": "Titan Natur",
-              "colorHex": "#c8b89a",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3013079",
-              "storage": "1TB",
-              "color": "Titan Wueste",
-              "colorHex": "#a8906a",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
               "connectivity": null
             }
           ]
@@ -283,95 +317,173 @@
       "name": "iPad",
       "models": [
         {
-          "name": "iPad Air M2 11\"",
+          "name": "iPad 11. Gen",
           "variants": [
             {
-              "articleNumber": "3020010",
+              "articleNumber": "2984282",
               "storage": "128GB",
-              "color": "Blau",
-              "colorHex": "#4a7fb5",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
               "connectivity": "WiFi"
             },
             {
-              "articleNumber": "3020011",
+              "articleNumber": "2984280",
               "storage": "128GB",
               "color": "Blau",
-              "colorHex": "#4a7fb5",
-              "connectivity": "WiFi + Cellular"
-            },
-            {
-              "articleNumber": "3020012",
-              "storage": "128GB",
-              "color": "Polarstern",
-              "colorHex": "#f0ece4",
+              "colorHex": "#6B7FAD",
               "connectivity": "WiFi"
             },
             {
-              "articleNumber": "3020013",
+              "articleNumber": "2984219",
+              "storage": "256GB",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": "WiFi"
+            }
+          ]
+        },
+        {
+          "name": "iPad mini 2024",
+          "variants": [
+            {
+              "articleNumber": "2961502",
+              "storage": "128GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi"
+            },
+            {
+              "articleNumber": "2961508",
+              "storage": "128GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi"
+            },
+            {
+              "articleNumber": "2961509",
               "storage": "128GB",
               "color": "Polarstern",
-              "colorHex": "#f0ece4",
-              "connectivity": "WiFi + Cellular"
-            },
-            {
-              "articleNumber": "3020014",
-              "storage": "256GB",
-              "color": "Blau",
-              "colorHex": "#4a7fb5",
+              "colorHex": "#F4E8CE",
               "connectivity": "WiFi"
             },
             {
-              "articleNumber": "3020015",
-              "storage": "256GB",
-              "color": "Blau",
-              "colorHex": "#4a7fb5",
-              "connectivity": "WiFi + Cellular"
-            },
-            {
-              "articleNumber": "3020016",
-              "storage": "256GB",
-              "color": "Polarstern",
-              "colorHex": "#f0ece4",
+              "articleNumber": "2961511",
+              "storage": "128GB",
+              "color": "Violett",
+              "colorHex": "#9B8DC4",
               "connectivity": "WiFi"
             },
             {
-              "articleNumber": "3020017",
+              "articleNumber": "2961512",
               "storage": "256GB",
-              "color": "Polarstern",
-              "colorHex": "#f0ece4",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi"
+            },
+            {
+              "articleNumber": "2961514",
+              "storage": "256GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi"
+            },
+            {
+              "articleNumber": "2961613",
+              "storage": "512GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi"
+            },
+            {
+              "articleNumber": "2961616",
+              "storage": "512GB",
+              "color": "Violett",
+              "colorHex": "#9B8DC4",
+              "connectivity": "WiFi"
+            }
+          ]
+        },
+        {
+          "name": "iPad Air 2025 11\"",
+          "variants": [
+            {
+              "articleNumber": "2984227",
+              "storage": "128GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi"
+            },
+            {
+              "articleNumber": "2984224",
+              "storage": "128GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi"
+            },
+            {
+              "articleNumber": "2984237",
+              "storage": "256GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi"
+            },
+            {
+              "articleNumber": "2984247",
+              "storage": "512GB",
+              "color": "Violett",
+              "colorHex": "#9B8DC4",
+              "connectivity": "WiFi"
+            },
+            {
+              "articleNumber": "2984250",
+              "storage": "128GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
               "connectivity": "WiFi + Cellular"
             }
           ]
         },
         {
-          "name": "iPad Pro M4 11\"",
+          "name": "iPad Pro 2025 11\"",
           "variants": [
             {
-              "articleNumber": "3020018",
+              "articleNumber": "3019820",
               "storage": "256GB",
               "color": "Space Schwarz",
-              "colorHex": "#2c2c2e",
+              "colorHex": "#2E2E2E",
               "connectivity": "WiFi"
             },
             {
-              "articleNumber": "3020019",
+              "articleNumber": "3019821",
+              "storage": "256GB",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": "WiFi"
+            }
+          ]
+        },
+        {
+          "name": "iPad Pro 2025 13\"",
+          "variants": [
+            {
+              "articleNumber": "3019832",
               "storage": "256GB",
               "color": "Space Schwarz",
-              "colorHex": "#2c2c2e",
+              "colorHex": "#2E2E2E",
+              "connectivity": "WiFi"
+            },
+            {
+              "articleNumber": "3019858",
+              "storage": "256GB",
+              "color": "Space Schwarz",
+              "colorHex": "#2E2E2E",
               "connectivity": "WiFi + Cellular"
             },
             {
-              "articleNumber": "3020020",
-              "storage": "256GB",
-              "color": "Silber",
-              "colorHex": "#c8c8c8",
-              "connectivity": "WiFi"
-            },
-            {
-              "articleNumber": "3020021",
-              "storage": "256GB",
-              "color": "Silber",
-              "colorHex": "#c8c8c8",
+              "articleNumber": "3019860",
+              "storage": "512GB",
+              "color": "Space Schwarz",
+              "colorHex": "#2E2E2E",
               "connectivity": "WiFi + Cellular"
             }
           ]
@@ -382,88 +494,150 @@
       "name": "MacBook",
       "models": [
         {
-          "name": "MacBook Air 13\" M3",
+          "name": "MacBook Air 13\" M4 (2025)",
           "variants": [
             {
-              "articleNumber": "3030010",
+              "articleNumber": "2984512",
               "storage": "256GB",
               "color": "Mitternacht",
-              "colorHex": "#1c2027",
+              "colorHex": "#2E3642",
               "connectivity": null
             },
             {
-              "articleNumber": "3030011",
+              "articleNumber": "2984502",
               "storage": "256GB",
+              "color": "Himmelblau",
+              "colorHex": "#8CB4D8",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2984503",
+              "storage": "512GB",
+              "color": "Himmelblau",
+              "colorHex": "#8CB4D8",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2984497",
+              "storage": "512GB 24GB",
               "color": "Polarstern",
-              "colorHex": "#f0ece4",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3030012",
-              "storage": "256GB",
-              "color": "Silber",
-              "colorHex": "#c8c8c8",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3030013",
-              "storage": "256GB",
-              "color": "Space Grau",
-              "colorHex": "#86868b",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3030014",
-              "storage": "512GB",
-              "color": "Mitternacht",
-              "colorHex": "#1c2027",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3030015",
-              "storage": "512GB",
-              "color": "Polarstern",
-              "colorHex": "#f0ece4",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3030016",
-              "storage": "512GB",
-              "color": "Silber",
-              "colorHex": "#c8c8c8",
+              "colorHex": "#F4E8CE",
               "connectivity": null
             }
           ]
         },
         {
-          "name": "MacBook Air 15\" M3",
+          "name": "MacBook Air 15\" M4 (2025)",
           "variants": [
             {
-              "articleNumber": "3030017",
-              "storage": "256GB",
-              "color": "Mitternacht",
-              "colorHex": "#1c2027",
-              "connectivity": null
-            },
-            {
-              "articleNumber": "3030018",
+              "articleNumber": "2984516",
               "storage": "256GB",
               "color": "Polarstern",
-              "colorHex": "#f0ece4",
+              "colorHex": "#F4E8CE",
               "connectivity": null
             },
             {
-              "articleNumber": "3030019",
-              "storage": "512GB",
-              "color": "Mitternacht",
-              "colorHex": "#1c2027",
+              "articleNumber": "2984505",
+              "storage": "256GB",
+              "color": "Himmelblau",
+              "colorHex": "#8CB4D8",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "MacBook Pro 14\" (2025)",
+          "variants": [
+            {
+              "articleNumber": "3019814",
+              "storage": "1TB 16GB M5",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
               "connectivity": null
             },
             {
-              "articleNumber": "3030020",
-              "storage": "512GB",
-              "color": "Polarstern",
-              "colorHex": "#f0ece4",
+              "articleNumber": "3019815",
+              "storage": "1TB 24GB M5",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mac",
+      "models": [
+        {
+          "name": "Mac mini M4 (2024)",
+          "variants": [
+            {
+              "articleNumber": "2964719",
+              "storage": "256GB 16GB",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2964718",
+              "storage": "512GB 24GB",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "iMac 24\" M4 (2024)",
+          "variants": [
+            {
+              "articleNumber": "2964540",
+              "storage": "256GB 16GB 8-Core",
+              "color": "Gruen",
+              "colorHex": "#4CAF50",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2964541",
+              "storage": "256GB 16GB 8-Core",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2964538",
+              "storage": "256GB 16GB 10-Core",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2964546",
+              "storage": "512GB 16GB 10-Core",
+              "color": "Gruen",
+              "colorHex": "#4CAF50",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2964548",
+              "storage": "512GB 16GB 10-Core",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2964534",
+              "storage": "512GB 24GB 10-Core",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2964536",
+              "storage": "512GB 24GB 10-Core",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
               "connectivity": null
             }
           ]
@@ -474,65 +648,365 @@
       "name": "Watch",
       "models": [
         {
-          "name": "Apple Watch Series 10 42mm",
+          "name": "Watch Series 11 42mm GPS",
           "variants": [
             {
-              "articleNumber": "3040010",
-              "storage": "32GB",
-              "color": "Polarstern Alu",
-              "colorHex": "#f0ece4",
+              "articleNumber": "3013628",
+              "storage": "Standard",
+              "color": "Space Grau S/M",
+              "colorHex": "#7A7A7A",
               "connectivity": null
             },
             {
-              "articleNumber": "3040011",
-              "storage": "32GB",
-              "color": "Schwarz Alu",
-              "colorHex": "#1c1c1e",
+              "articleNumber": "3013626",
+              "storage": "Standard",
+              "color": "Diamantschwarz S/M",
+              "colorHex": "#1A1A1A",
               "connectivity": null
             },
             {
-              "articleNumber": "3040012",
-              "storage": "32GB",
-              "color": "Silber Alu",
-              "colorHex": "#c8c8c8",
+              "articleNumber": "3013630",
+              "storage": "Standard",
+              "color": "Rosegold S/M",
+              "colorHex": "#C4A080",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013632",
+              "storage": "Standard",
+              "color": "Silber S/M",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013629",
+              "storage": "Standard",
+              "color": "Space Grau M/L",
+              "colorHex": "#7A7A7A",
               "connectivity": null
             }
           ]
         },
         {
-          "name": "Apple Watch Series 10 46mm",
+          "name": "Watch Series 11 46mm GPS",
           "variants": [
             {
-              "articleNumber": "3040013",
-              "storage": "32GB",
-              "color": "Polarstern Alu",
-              "colorHex": "#f0ece4",
+              "articleNumber": "3013634",
+              "storage": "Standard",
+              "color": "Diamantschwarz S/M",
+              "colorHex": "#1A1A1A",
               "connectivity": null
             },
             {
-              "articleNumber": "3040014",
-              "storage": "32GB",
-              "color": "Schwarz Alu",
-              "colorHex": "#1c1c1e",
+              "articleNumber": "3013636",
+              "storage": "Standard",
+              "color": "Space Grau S/M",
+              "colorHex": "#7A7A7A",
               "connectivity": null
             },
             {
-              "articleNumber": "3040015",
-              "storage": "32GB",
-              "color": "Silber Alu",
-              "colorHex": "#c8c8c8",
+              "articleNumber": "3013635",
+              "storage": "Standard",
+              "color": "Diamantschwarz M/L",
+              "colorHex": "#1A1A1A",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013637",
+              "storage": "Standard",
+              "color": "Space Grau M/L",
+              "colorHex": "#7A7A7A",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013639",
+              "storage": "Standard",
+              "color": "Rosegold M/L",
+              "colorHex": "#C4A080",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013641",
+              "storage": "Standard",
+              "color": "Silber M/L",
+              "colorHex": "#D4D4D4",
               "connectivity": null
             }
           ]
         },
         {
-          "name": "Apple Watch Ultra 2",
+          "name": "Watch SE 3 40mm GPS",
           "variants": [
             {
-              "articleNumber": "3040016",
-              "storage": "32GB",
-              "color": "Titan Natur",
-              "colorHex": "#c8b89a",
+              "articleNumber": "3013618",
+              "storage": "Standard",
+              "color": "Polarstern S/M",
+              "colorHex": "#F4E8CE",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013619",
+              "storage": "Standard",
+              "color": "Polarstern M/L",
+              "colorHex": "#F4E8CE",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013620",
+              "storage": "Standard",
+              "color": "Mitternacht S/M",
+              "colorHex": "#2E3642",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013621",
+              "storage": "Standard",
+              "color": "Mitternacht M/L",
+              "colorHex": "#2E3642",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "Watch SE 3 44mm GPS",
+          "variants": [
+            {
+              "articleNumber": "3013623",
+              "storage": "Standard",
+              "color": "Polarstern M/L",
+              "colorHex": "#F4E8CE",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013624",
+              "storage": "Standard",
+              "color": "Mitternacht S/M",
+              "colorHex": "#2E3642",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013625",
+              "storage": "Standard",
+              "color": "Mitternacht M/L",
+              "colorHex": "#2E3642",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "Watch Ultra 3 49mm",
+          "variants": [
+            {
+              "articleNumber": "3013695",
+              "storage": "Standard",
+              "color": "Natur",
+              "colorHex": "#C4B9A8",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3013702",
+              "storage": "Standard",
+              "color": "Schwarz",
+              "colorHex": "#1A1A1A",
+              "connectivity": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AirPods",
+      "models": [
+        {
+          "name": "AirPods 4",
+          "variants": [
+            {
+              "articleNumber": "2954343",
+              "storage": "Standard",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "AirPods 4 ANC",
+          "variants": [
+            {
+              "articleNumber": "2954282",
+              "storage": "Standard",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "AirPods Pro 3",
+          "variants": [
+            {
+              "articleNumber": "3013574",
+              "storage": "Standard",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "AirPods Max",
+          "variants": [
+            {
+              "articleNumber": "2954319",
+              "storage": "Standard",
+              "color": "Mitternacht",
+              "colorHex": "#2E3642",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2954330",
+              "storage": "Standard",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apple TV",
+      "models": [
+        {
+          "name": "Apple TV 4K",
+          "variants": [
+            {
+              "articleNumber": "2841677",
+              "storage": "64GB",
+              "color": "Schwarz",
+              "colorHex": "#3C3C3C",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2841678",
+              "storage": "128GB",
+              "color": "Schwarz",
+              "colorHex": "#3C3C3C",
+              "connectivity": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pencil",
+      "models": [
+        {
+          "name": "Apple Pencil Pro",
+          "variants": [
+            {
+              "articleNumber": "2934882",
+              "storage": "Standard",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "Apple Pencil USB-C",
+          "variants": [
+            {
+              "articleNumber": "2904847",
+              "storage": "Standard",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "Apple Pencil 2. Generation",
+          "variants": [
+            {
+              "articleNumber": "2981210",
+              "storage": "Standard",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
+              "connectivity": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HomePod",
+      "models": [
+        {
+          "name": "HomePod 2. Gen",
+          "variants": [
+            {
+              "articleNumber": "2993078",
+              "storage": "Standard",
+              "color": "Mitternacht",
+              "colorHex": "#2E3642",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2993079",
+              "storage": "Standard",
+              "color": "Weiss",
+              "colorHex": "#F2F1EB",
+              "connectivity": null
+            }
+          ]
+        },
+        {
+          "name": "HomePod mini",
+          "variants": [
+            {
+              "articleNumber": "2945180",
+              "storage": "Standard",
+              "color": "Mitternacht",
+              "colorHex": "#2E3642",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2771268",
+              "storage": "Standard",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "2771269",
+              "storage": "Standard",
+              "color": "Orange",
+              "colorHex": "#E87040",
+              "connectivity": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AirTag",
+      "models": [
+        {
+          "name": "AirTag 2. Gen",
+          "variants": [
+            {
+              "articleNumber": "3034649",
+              "storage": "1er Pack",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3034650",
+              "storage": "4er Pack",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
               "connectivity": null
             }
           ]

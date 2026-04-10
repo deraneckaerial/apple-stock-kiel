@@ -5,9 +5,20 @@ import type { ProductCatalog, Variant } from "@/lib/types";
 describe("Product Catalog", () => {
   const typedCatalog = catalog as ProductCatalog;
 
-  it("has all four categories", () => {
+  it("has all ten categories", () => {
     const names = typedCatalog.categories.map((c) => c.name);
-    expect(names).toEqual(["iPhone", "iPad", "MacBook", "Watch"]);
+    expect(names).toEqual([
+      "iPhone",
+      "iPad",
+      "MacBook",
+      "Mac",
+      "Watch",
+      "AirPods",
+      "Apple TV",
+      "Pencil",
+      "HomePod",
+      "AirTag",
+    ]);
   });
 
   it("every variant has a non-empty articleNumber", () => {
