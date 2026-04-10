@@ -121,10 +121,6 @@ function ResultContent() {
     shareOrFallback(text);
   }
 
-  function handleCall(phone: string) {
-    window.location.href = `tel:${phone}`;
-  }
-
   return (
     <main className="max-w-[430px] mx-auto px-4 pt-4 pb-10">
       {/* Back */}
@@ -231,7 +227,6 @@ function ResultContent() {
                     primaryStock.pickup
                   )
                 }
-                onCall={() => handleCall(primaryStock.phone)}
               />
             </div>
           )}

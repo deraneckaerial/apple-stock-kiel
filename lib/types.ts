@@ -24,7 +24,6 @@ export interface StoreStock {
   id: string;
   name: string;
   address: string;
-  phone: string;
   available: boolean;
   pickup: boolean;
   stockLevel: "high" | "low" | "none";

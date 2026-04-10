@@ -8,7 +8,6 @@ interface StoreCardProps {
   productName: string;
   variantLabel: string;
   onShare?: () => void;
-  onCall?: () => void;
 }
 
 function StockIcon({
@@ -74,7 +73,6 @@ export default function StoreCard({
   productName,
   variantLabel,
   onShare,
-  onCall,
 }: StoreCardProps) {
   if (isPrimary) {
     return (
@@ -125,26 +123,15 @@ export default function StoreCard({
           </div>
         )}
 
-        <div className="flex gap-2">
-          {onShare && (
-            <button
-              onClick={onShare}
-              className="flex-1 py-2.5 bg-apple-lightgray rounded-[10px] text-[13px] text-apple-blue font-medium text-center
-                         active:scale-[0.97] transition-transform"
-            >
-              Teilen
-            </button>
-          )}
-          {onCall && (
-            <button
-              onClick={onCall}
-              className="flex-1 py-2.5 bg-apple-lightgray rounded-[10px] text-[13px] text-apple-blue font-medium text-center
-                         active:scale-[0.97] transition-transform"
-            >
-              Anrufen
-            </button>
-          )}
-        </div>
+        {onShare && (
+          <button
+            onClick={onShare}
+            className="w-full py-2.5 bg-apple-lightgray rounded-[10px] text-[13px] text-apple-blue font-medium text-center
+                       active:scale-[0.97] transition-transform"
+          >
+            Teilen
+          </button>
+        )}
       </div>
     );
   }

@@ -20,7 +20,6 @@ export function buildMockStockResponse(articleNumber: string): StockResponse {
       id: store.id,
       name: store.name,
       address: store.address,
-      phone: store.phone,
       available: isAvailable,
       pickup: hasPickup,
       stockLevel: normalizeStockLevel({
