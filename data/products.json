@@ -546,6 +546,22 @@
           ]
         },
         {
+          "name": "MacBook Air 13\" M5 (2026)",
+          "variants": [
+            { "articleNumber": "3041065", "storage": "512GB", "color": "Mitternacht", "colorHex": "#2E3642", "connectivity": null },
+            { "articleNumber": "3041068", "storage": "512GB", "color": "Polarstern", "colorHex": "#F4E8CE", "connectivity": null },
+            { "articleNumber": "3041071", "storage": "512GB", "color": "Himmelblau", "colorHex": "#8CB4D8", "connectivity": null },
+            { "articleNumber": "3041074", "storage": "512GB", "color": "Space Grau", "colorHex": "#7A7A7A", "connectivity": null },
+            { "articleNumber": "3041076", "storage": "1TB 24GB", "color": "Polarstern", "colorHex": "#F4E8CE", "connectivity": null }
+          ]
+        },
+        {
+          "name": "MacBook Air 15\" M5 (2026)",
+          "variants": [
+            { "articleNumber": "3041077", "storage": "512GB", "color": "Mitternacht", "colorHex": "#2E3642", "connectivity": null }
+          ]
+        },
+        {
           "name": "MacBook Pro 14\" (2025)",
           "variants": [
             {
@@ -562,6 +578,26 @@
               "colorHex": "#7A7A7A",
               "connectivity": null
             }
+          ]
+        },
+        {
+          "name": "MacBook Pro 14\" M5 (2026)",
+          "variants": [
+            { "articleNumber": "3041103", "storage": "1TB 32GB M5", "color": "Space Grau", "colorHex": "#7A7A7A", "connectivity": null },
+            { "articleNumber": "3041089", "storage": "1TB 24GB M5 Pro", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null },
+            { "articleNumber": "3041092", "storage": "1TB 24GB M5 Pro", "color": "Silber", "colorHex": "#D4D4D4", "connectivity": null },
+            { "articleNumber": "3041093", "storage": "2TB 24GB M5 Pro", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null }
+          ]
+        },
+        {
+          "name": "MacBook Pro 16\" M5 (2026)",
+          "variants": [
+            { "articleNumber": "3041095", "storage": "1TB 24GB M5 Pro", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null },
+            { "articleNumber": "3041099", "storage": "1TB 24GB M5 Pro", "color": "Silber", "colorHex": "#D4D4D4", "connectivity": null },
+            { "articleNumber": "3041100", "storage": "1TB 48GB M5 Pro", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null },
+            { "articleNumber": "3041097", "storage": "2TB 36GB M5 Max", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null },
+            { "articleNumber": "3041098", "storage": "2TB 48GB M5 Max", "color": "Space Schwarz", "colorHex": "#2E2E2E", "connectivity": null },
+            { "articleNumber": "3041102", "storage": "2TB 48GB M5 Max", "color": "Silber", "colorHex": "#D4D4D4", "connectivity": null }
           ]
         }
       ]
