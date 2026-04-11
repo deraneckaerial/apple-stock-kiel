@@ -190,7 +190,7 @@ async function main() {
       });
 
       // Brief wait for SSR data to be available
-      await page.waitForTimeout(1000);
+      await page.waitForTimeout(500);
 
       // Check if we hit Cloudflare
       const title = await page.title();
