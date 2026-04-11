@@ -454,8 +454,8 @@ async function fetchStoreDataFromGraphQL(
 
 // ─── Cached Store Data (from GitHub Actions scraper) ───────
 
-const GIST_RAW_URL =
-  "https://gist.githubusercontent.com/deraneckaerial/32f647c1ba28a66b2759db6fa902ed0a/raw/stock-cache.json";
+const STOCK_CACHE_URL =
+  "https://raw.githubusercontent.com/deraneckaerial/apple-stock-kiel/master/data/stock-cache.json";
 
 interface CachedStoreProduct {
   articleNumber: string;
@@ -488,7 +488,7 @@ async function fetchCachedStoreData(): Promise<CachedStoreData | null> {
 
   try {
     // Add cache-bust to avoid GitHub CDN caching stale data
-    const url = `${GIST_RAW_URL}?t=${now}`;
+    const url = `${STOCK_CACHE_URL}?t=${now}`;
     const response = await fetch(url, {
       headers: { Accept: "application/json" },
     });

@@ -6,8 +6,8 @@ on:
     - cron: '*/15 5-20 * * *'
   workflow_dispatch: # Manual trigger
 
-env:
-  GIST_ID: 32f647c1ba28a66b2759db6fa902ed0a
+permissions:
+  contents: write
 
 jobs:
   scrape:
@@ -22,10 +22,12 @@ jobs:
           node-version: '20'
 
       - name: Install Playwright
-        run: npx playwright install chromium --with-deps
+        run: |
+          npm install playwright
+          npx playwright install chromium --with-deps
 
       - name: Run store stock scraper
-        run: node scripts/scrape-store-stock.mjs > stock-cache.json 2> scraper.log
+        run: node scripts/scrape-store-stock.mjs > data/stock-cache.json 2> scraper.log
 
       - name: Show scraper log
         if: always()
@@ -33,15 +35,17 @@ jobs:
 
       - name: Validate output
         run: |
-          if [ ! -s stock-cache.json ]; then
+          if [ ! -s data/stock-cache.json ]; then
             echo "ERROR: stock-cache.json is empty"
             exit 1
           fi
-          node -e "const d=JSON.parse(require('fs').readFileSync('stock-cache.json','utf8')); console.log('Products:', d.totalProducts, 'Available:', d.availableCount);"
+          node -e "const d=JSON.parse(require('fs').readFileSync('data/stock-cache.json','utf8')); console.log('Products:', d.totalProducts, 'Available:', d.availableCount);"
 
-      - name: Update Gist
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push stock cache
         run: |
-          gh gist edit $GIST_ID --filename stock-cache.json stock-cache.json
-          echo "Gist updated at $(date -u)"
+          git config user.name "stock-bot"
+          git config user.email "stock-bot@users.noreply.github.com"
+          git add data/stock-cache.json
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "chore: update stock cache $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
