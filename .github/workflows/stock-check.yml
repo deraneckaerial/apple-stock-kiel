@@ -21,10 +21,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Playwright
+      - name: Install Playwright (stealth)
         run: |
-          npm install playwright
-          npx playwright install chromium --with-deps
+          npm install rebrowser-playwright || npm install playwright
+          npx rebrowser-playwright install chromium --with-deps 2>/dev/null || npx playwright install chromium --with-deps
 
       - name: Run store stock scraper
         run: node scripts/scrape-store-stock.mjs > data/stock-cache.json 2> scraper.log

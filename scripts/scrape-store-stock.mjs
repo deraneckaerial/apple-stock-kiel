@@ -1,17 +1,18 @@
 /**
- * Playwright-based store stock scraper for MediaMarkt Citti-Park Kiel.
+ * Store stock scraper for MediaMarkt Citti-Park Kiel.
  *
- * Runs inside GitHub Actions every 15 minutes.
- * 1. Launches headless Chromium
- * 2. Navigates to mediamarkt.de (passes Cloudflare)
+ * Uses rebrowser-playwright (stealth Playwright fork) to bypass Cloudflare.
+ * Falls back to regular playwright if rebrowser is not available.
+ *
+ * Flow:
+ * 1. Launches headless Chromium (stealth mode)
+ * 2. Navigates to a MediaMarkt product page (passes Cloudflare)
  * 3. Makes GraphQL calls from browser context for each product
  * 4. Outputs JSON with Citti-Park availability for all products
  *
  * Usage: node scripts/scrape-store-stock.mjs
- * Output: writes stock-cache.json to stdout or --output <file>
  */
 
-import { chromium } from "playwright";
 import { readFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
@@ -21,11 +22,23 @@ const CATALOG_PATH = resolve(__dirname, "../data/products.json");
 
 const STORE_ID = "441"; // Citti-Park Kiel
 const ZIP_CODE = "24113";
-const BATCH_SIZE = 8;
+const BATCH_SIZE = 5; // Smaller batches, more delay = less detection
 const SHA256_HASH =
   "aed000a926d7a91ed636bfbde453059505a83dc3bc1f54dc7e26f5355a5b6c35";
 
-// Extract all unique article numbers from the product catalog
+// Try rebrowser-playwright first, fall back to regular playwright
+async function getPlaywright() {
+  try {
+    const mod = await import("rebrowser-playwright");
+    console.error("[scraper] Using rebrowser-playwright (stealth)");
+    return mod;
+  } catch {
+    const mod = await import("playwright");
+    console.error("[scraper] Using standard playwright");
+    return mod;
+  }
+}
+
 function getArticleNumbers() {
   const catalog = JSON.parse(readFileSync(CATALOG_PATH, "utf8"));
   const articles = new Set();
@@ -39,7 +52,6 @@ function getArticleNumbers() {
   return [...articles];
 }
 
-// Build GraphQL URL for a single product
 function buildGraphQLUrl(articleNumber) {
   const variables = {
     limit: 5,
@@ -110,22 +122,30 @@ function buildGraphQLUrl(articleNumber) {
   return `https://www.mediamarkt.de/api/v1/graphql?${params.toString()}`;
 }
 
-// Parse GraphQL response for a single product
 function parseStoreAvailability(articleNumber, data) {
   const stores =
     data?.data?.closestStoresWithFoundLocation?.stores ??
     data?.data?.closestStoresByZipCodeOrCityWithFoundLocation?.stores ??
     [];
 
-  // Find Citti-Park (store 441)
   const cittiPark = stores.find((s) => s.id === STORE_ID);
   if (!cittiPark) {
-    return { articleNumber, available: false, pickup: false, stockLevel: "none" };
+    return {
+      articleNumber,
+      available: false,
+      pickup: false,
+      stockLevel: "none",
+    };
   }
 
   const pickup = cittiPark.cofrProductAggregate?.cofrPickupFeature;
   if (!pickup) {
-    return { articleNumber, available: false, pickup: false, stockLevel: "none" };
+    return {
+      articleNumber,
+      available: false,
+      pickup: false,
+      stockLevel: "none",
+    };
   }
 
   const isAvailable =
@@ -146,26 +166,115 @@ async function main() {
   const articles = getArticleNumbers();
   console.error(`[scraper] Found ${articles.length} articles to check`);
 
-  // Launch browser
-  const browser = await chromium.launch({ headless: true });
+  const { chromium } = await getPlaywright();
+
+  const browser = await chromium.launch({
+    headless: true,
+    args: [
+      "--disable-blink-features=AutomationControlled",
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+    ],
+  });
+
   const context = await browser.newContext({
     userAgent:
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     locale: "de-DE",
+    viewport: { width: 1920, height: 1080 },
   });
+
+  // Anti-detection init scripts
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, "webdriver", { get: () => false });
+    Object.defineProperty(navigator, "plugins", {
+      get: () => [1, 2, 3, 4, 5],
+    });
+    Object.defineProperty(navigator, "languages", {
+      get: () => ["de-DE", "de", "en-US", "en"],
+    });
+    // Override permissions query
+    const originalQuery = window.navigator.permissions?.query;
+    if (originalQuery) {
+      window.navigator.permissions.query = (parameters) =>
+        parameters.name === "notifications"
+          ? Promise.resolve({ state: "denied" })
+          : originalQuery(parameters);
+    }
+  });
+
   const page = await context.newPage();
 
-  // Navigate to MediaMarkt to pass Cloudflare challenge
-  console.error("[scraper] Navigating to mediamarkt.de...");
-  await page.goto("https://www.mediamarkt.de/", {
-    waitUntil: "domcontentloaded",
-    timeout: 30000,
-  });
-  // Wait a moment for Cloudflare to settle
-  await page.waitForTimeout(3000);
-  console.error("[scraper] Page loaded, Cloudflare should be passed");
+  // Navigate to a real product page to properly pass Cloudflare
+  console.error("[scraper] Navigating to product page...");
+  try {
+    await page.goto("https://www.mediamarkt.de/de/product/-3034649.html", {
+      waitUntil: "networkidle",
+      timeout: 45000,
+    });
+  } catch {
+    console.error("[scraper] networkidle timeout, continuing anyway...");
+  }
 
-  // Batch fetch GraphQL data from within the browser context
+  await page.waitForTimeout(5000);
+
+  const title = await page.title();
+  console.error(`[scraper] Page title: "${title}"`);
+
+  if (title.includes("Just a moment")) {
+    console.error("[scraper] Cloudflare challenge detected, waiting 15s...");
+    await page.waitForTimeout(15000);
+    const newTitle = await page.title();
+    console.error(`[scraper] After wait: "${newTitle}"`);
+  }
+
+  // Verify GraphQL access with a test call
+  const testResult = await page.evaluate(async (url) => {
+    try {
+      const r = await fetch(url, {
+        headers: {
+          "apollographql-client-name": "pwa-client-pqm",
+          "apollographql-client-version": "8.406.0",
+          "x-mms-salesline": "Media",
+          "x-mms-country": "DE",
+          "x-mms-language": "de",
+          "content-type": "application/json",
+        },
+      });
+      if (!r.ok) return { status: r.status, ok: false };
+      const data = await r.json();
+      const stores =
+        data?.data?.closestStoresWithFoundLocation?.stores ??
+        data?.data?.closestStoresByZipCodeOrCityWithFoundLocation?.stores ??
+        [];
+      return { status: r.status, ok: true, storeCount: stores.length };
+    } catch (e) {
+      return { error: e.message };
+    }
+  }, buildGraphQLUrl("3034649"));
+
+  console.error(`[scraper] Test call: ${JSON.stringify(testResult)}`);
+
+  if (!testResult.ok) {
+    console.error("[scraper] GraphQL access blocked. Aborting.");
+    await browser.close();
+
+    // Output empty cache with error info
+    const output = {
+      storeId: STORE_ID,
+      storeName: "MediaMarkt Kiel (Citti-Park)",
+      checkedAt: new Date().toISOString(),
+      totalProducts: articles.length,
+      availableCount: 0,
+      failedCount: articles.length,
+      _error: `GraphQL blocked: ${JSON.stringify(testResult)}`,
+      products: {},
+    };
+    process.stdout.write(JSON.stringify(output, null, 2));
+    process.exit(0); // Don't fail the whole workflow
+  }
+
+  // GraphQL works — batch fetch all products
   const results = {};
   let successCount = 0;
   let failCount = 0;
@@ -180,14 +289,14 @@ async function main() {
     );
 
     const batchResults = await page.evaluate(
-      async ({ urls, headers }) => {
+      async ({ urls }) => {
         const results = {};
         const promises = urls.map(async ({ articleNumber, url }) => {
           try {
             const resp = await fetch(url, {
               headers: {
-                "apollographql-client-name": headers.clientName,
-                "apollographql-client-version": headers.clientVersion,
+                "apollographql-client-name": "pwa-client-pqm",
+                "apollographql-client-version": "8.406.0",
                 "x-mms-salesline": "Media",
                 "x-mms-country": "DE",
                 "x-mms-language": "de",
@@ -206,16 +315,9 @@ async function main() {
         await Promise.all(promises);
         return results;
       },
-      {
-        urls: batch.map((a) => ({ articleNumber: a, url: buildGraphQLUrl(a) })),
-        headers: {
-          clientName: "pwa-client-pqm",
-          clientVersion: "8.406.0",
-        },
-      }
+      { urls: batch.map((a) => ({ articleNumber: a, url: buildGraphQLUrl(a) })) }
     );
 
-    // Parse results
     for (const [articleNumber, data] of Object.entries(batchResults)) {
       if (data.error) {
         failCount++;
@@ -233,9 +335,9 @@ async function main() {
       }
     }
 
-    // Small delay between batches to be respectful
+    // Delay between batches to avoid rate limiting
     if (i + BATCH_SIZE < articles.length) {
-      await page.waitForTimeout(500);
+      await page.waitForTimeout(1000);
     }
   }
 
@@ -252,10 +354,11 @@ async function main() {
   };
 
   console.error(
-    `[scraper] Done: ${successCount} available, ${failCount} failed, ${articles.length - successCount - failCount} not in stock`
+    `[scraper] Done: ${successCount} available, ${failCount} failed, ${
+      articles.length - successCount - failCount
+    } not in stock`
   );
 
-  // Output JSON to stdout
   process.stdout.write(JSON.stringify(output, null, 2));
 }
 
