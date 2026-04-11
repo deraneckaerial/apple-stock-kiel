@@ -26,17 +26,10 @@ const BATCH_SIZE = 5; // Smaller batches, more delay = less detection
 const SHA256_HASH =
   "aed000a926d7a91ed636bfbde453059505a83dc3bc1f54dc7e26f5355a5b6c35";
 
-// Try rebrowser-playwright first, fall back to regular playwright
 async function getPlaywright() {
-  try {
-    const mod = await import("rebrowser-playwright");
-    console.error("[scraper] Using rebrowser-playwright (stealth)");
-    return mod;
-  } catch {
-    const mod = await import("playwright");
-    console.error("[scraper] Using standard playwright");
-    return mod;
-  }
+  const mod = await import("playwright");
+  console.error("[scraper] Using playwright");
+  return mod;
 }
 
 function getArticleNumbers() {
