@@ -1,9 +1,934 @@
 {
   "storeId": "441",
   "storeName": "MediaMarkt Kiel (Citti-Park)",
-  "checkedAt": "2026-04-11T00:00:00Z",
-  "totalProducts": 0,
+  "checkedAt": "2026-04-11T19:36:59.816Z",
+  "totalProducts": 132,
   "availableCount": 0,
-  "failedCount": 0,
-  "products": {}
+  "failedCount": 132,
+  "products": {
+    "2731996": {
+      "articleNumber": "2731996",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2732002": {
+      "articleNumber": "2732002",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2771268": {
+      "articleNumber": "2771268",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2771269": {
+      "articleNumber": "2771269",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2841677": {
+      "articleNumber": "2841677",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2841678": {
+      "articleNumber": "2841678",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2904847": {
+      "articleNumber": "2904847",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2934882": {
+      "articleNumber": "2934882",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2945180": {
+      "articleNumber": "2945180",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954263": {
+      "articleNumber": "2954263",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954266": {
+      "articleNumber": "2954266",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954269": {
+      "articleNumber": "2954269",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954272": {
+      "articleNumber": "2954272",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954274": {
+      "articleNumber": "2954274",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954282": {
+      "articleNumber": "2954282",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954293": {
+      "articleNumber": "2954293",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954295": {
+      "articleNumber": "2954295",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954297": {
+      "articleNumber": "2954297",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954300": {
+      "articleNumber": "2954300",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954319": {
+      "articleNumber": "2954319",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954330": {
+      "articleNumber": "2954330",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2954343": {
+      "articleNumber": "2954343",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2961502": {
+      "articleNumber": "2961502",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2961508": {
+      "articleNumber": "2961508",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2961509": {
+      "articleNumber": "2961509",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2961511": {
+      "articleNumber": "2961511",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2961512": {
+      "articleNumber": "2961512",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2961514": {
+      "articleNumber": "2961514",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2961613": {
+      "articleNumber": "2961613",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2961616": {
+      "articleNumber": "2961616",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2964534": {
+      "articleNumber": "2964534",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2964536": {
+      "articleNumber": "2964536",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2964538": {
+      "articleNumber": "2964538",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2964540": {
+      "articleNumber": "2964540",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2964541": {
+      "articleNumber": "2964541",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2964546": {
+      "articleNumber": "2964546",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2964548": {
+      "articleNumber": "2964548",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2964718": {
+      "articleNumber": "2964718",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2964719": {
+      "articleNumber": "2964719",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2981210": {
+      "articleNumber": "2981210",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2982461": {
+      "articleNumber": "2982461",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2982462": {
+      "articleNumber": "2982462",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2982463": {
+      "articleNumber": "2982463",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2982464": {
+      "articleNumber": "2982464",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2982466": {
+      "articleNumber": "2982466",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2982468": {
+      "articleNumber": "2982468",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984219": {
+      "articleNumber": "2984219",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984224": {
+      "articleNumber": "2984224",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984227": {
+      "articleNumber": "2984227",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984237": {
+      "articleNumber": "2984237",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984247": {
+      "articleNumber": "2984247",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984250": {
+      "articleNumber": "2984250",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984280": {
+      "articleNumber": "2984280",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984282": {
+      "articleNumber": "2984282",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984497": {
+      "articleNumber": "2984497",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984502": {
+      "articleNumber": "2984502",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984503": {
+      "articleNumber": "2984503",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984505": {
+      "articleNumber": "2984505",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984512": {
+      "articleNumber": "2984512",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2984516": {
+      "articleNumber": "2984516",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2993078": {
+      "articleNumber": "2993078",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "2993079": {
+      "articleNumber": "2993079",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013574": {
+      "articleNumber": "3013574",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013575": {
+      "articleNumber": "3013575",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013576": {
+      "articleNumber": "3013576",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013577": {
+      "articleNumber": "3013577",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013578": {
+      "articleNumber": "3013578",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013579": {
+      "articleNumber": "3013579",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013585": {
+      "articleNumber": "3013585",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013586": {
+      "articleNumber": "3013586",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013587": {
+      "articleNumber": "3013587",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013588": {
+      "articleNumber": "3013588",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013590": {
+      "articleNumber": "3013590",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013594": {
+      "articleNumber": "3013594",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013596": {
+      "articleNumber": "3013596",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013597": {
+      "articleNumber": "3013597",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013606": {
+      "articleNumber": "3013606",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013607": {
+      "articleNumber": "3013607",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013608": {
+      "articleNumber": "3013608",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013609": {
+      "articleNumber": "3013609",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013611": {
+      "articleNumber": "3013611",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013612": {
+      "articleNumber": "3013612",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013613": {
+      "articleNumber": "3013613",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013614": {
+      "articleNumber": "3013614",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013615": {
+      "articleNumber": "3013615",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013616": {
+      "articleNumber": "3013616",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013617": {
+      "articleNumber": "3013617",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013618": {
+      "articleNumber": "3013618",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013619": {
+      "articleNumber": "3013619",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013620": {
+      "articleNumber": "3013620",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013621": {
+      "articleNumber": "3013621",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013623": {
+      "articleNumber": "3013623",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013624": {
+      "articleNumber": "3013624",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013625": {
+      "articleNumber": "3013625",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013626": {
+      "articleNumber": "3013626",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013628": {
+      "articleNumber": "3013628",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013629": {
+      "articleNumber": "3013629",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013630": {
+      "articleNumber": "3013630",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013632": {
+      "articleNumber": "3013632",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013634": {
+      "articleNumber": "3013634",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013635": {
+      "articleNumber": "3013635",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013636": {
+      "articleNumber": "3013636",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013637": {
+      "articleNumber": "3013637",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013639": {
+      "articleNumber": "3013639",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013641": {
+      "articleNumber": "3013641",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013695": {
+      "articleNumber": "3013695",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3013702": {
+      "articleNumber": "3013702",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3019814": {
+      "articleNumber": "3019814",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3019815": {
+      "articleNumber": "3019815",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3019820": {
+      "articleNumber": "3019820",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3019821": {
+      "articleNumber": "3019821",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3019832": {
+      "articleNumber": "3019832",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3019858": {
+      "articleNumber": "3019858",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3019860": {
+      "articleNumber": "3019860",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3034649": {
+      "articleNumber": "3034649",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3034650": {
+      "articleNumber": "3034650",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041065": {
+      "articleNumber": "3041065",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041068": {
+      "articleNumber": "3041068",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041071": {
+      "articleNumber": "3041071",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041074": {
+      "articleNumber": "3041074",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041076": {
+      "articleNumber": "3041076",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041077": {
+      "articleNumber": "3041077",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041089": {
+      "articleNumber": "3041089",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041092": {
+      "articleNumber": "3041092",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041093": {
+      "articleNumber": "3041093",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041095": {
+      "articleNumber": "3041095",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041097": {
+      "articleNumber": "3041097",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041098": {
+      "articleNumber": "3041098",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041099": {
+      "articleNumber": "3041099",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041100": {
+      "articleNumber": "3041100",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041102": {
+      "articleNumber": "3041102",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    },
+    "3041103": {
+      "articleNumber": "3041103",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "HTTP 403"
+    }
+  }
 }
