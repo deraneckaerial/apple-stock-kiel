@@ -490,6 +490,310 @@
           ]
         },
         {
+          "name": "iPad Air 2026 11\"",
+          "variants": [
+            {
+              "articleNumber": "3040171",
+              "storage": "128GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172209857?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040172",
+              "storage": "128GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172211238?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040173",
+              "storage": "128GB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172212161?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040175",
+              "storage": "128GB",
+              "color": "Violett",
+              "colorHex": "#9B8DC4",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172193654?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040178",
+              "storage": "256GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172209857?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040180",
+              "storage": "256GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172211238?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040185",
+              "storage": "256GB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172212161?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040187",
+              "storage": "256GB",
+              "color": "Violett",
+              "colorHex": "#9B8DC4",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172193654?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040188",
+              "storage": "512GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172209857?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040189",
+              "storage": "512GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172211238?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040193",
+              "storage": "512GB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172212161?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040198",
+              "storage": "512GB",
+              "color": "Violett",
+              "colorHex": "#9B8DC4",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172193654?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040199",
+              "storage": "1TB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172209857?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040200",
+              "storage": "1TB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172211238?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040202",
+              "storage": "1TB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172212161?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040239",
+              "storage": "128GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi + Cellular",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172209857?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040241",
+              "storage": "128GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi + Cellular",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172211238?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040249",
+              "storage": "256GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi + Cellular"
+            },
+            {
+              "articleNumber": "3040253",
+              "storage": "256GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi + Cellular"
+            }
+          ]
+        },
+        {
+          "name": "iPad Air 2026 13\"",
+          "variants": [
+            {
+              "articleNumber": "3040208",
+              "storage": "128GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172185422?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040211",
+              "storage": "128GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172180390?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040215",
+              "storage": "128GB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172186921?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040216",
+              "storage": "128GB",
+              "color": "Violett",
+              "colorHex": "#9B8DC4",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172183019?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040218",
+              "storage": "256GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172185422?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040219",
+              "storage": "256GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172181416?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040221",
+              "storage": "256GB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172186921?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040222",
+              "storage": "256GB",
+              "color": "Violett",
+              "colorHex": "#9B8DC4",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172183019?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040227",
+              "storage": "512GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172185422?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040228",
+              "storage": "512GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172180390?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040231",
+              "storage": "512GB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172186921?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040234",
+              "storage": "512GB",
+              "color": "Violett",
+              "colorHex": "#9B8DC4",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172183019?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040235",
+              "storage": "1TB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172185422?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040236",
+              "storage": "1TB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172180390?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040238",
+              "storage": "1TB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": "WiFi",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172186921?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040315",
+              "storage": "128GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi + Cellular",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172180390?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040280",
+              "storage": "256GB",
+              "color": "Space Grau",
+              "colorHex": "#7A7A7A",
+              "connectivity": "WiFi + Cellular",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172185422?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3040281",
+              "storage": "256GB",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": "WiFi + Cellular",
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172180390?x=200&y=200&format=png&quality=80"
+            }
+          ]
+        },
+        {
           "name": "iPad Pro 2025 11\"",
           "variants": [
             {
@@ -606,8 +910,8 @@
             {
               "articleNumber": "3041065",
               "storage": "512GB",
-              "color": "Mitternacht",
-              "colorHex": "#2E3642",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
               "connectivity": null,
               "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172374459?x=200&y=200&format=png&quality=80"
             },
@@ -622,24 +926,24 @@
             {
               "articleNumber": "3041071",
               "storage": "512GB",
-              "color": "Himmelblau",
-              "colorHex": "#8CB4D8",
+              "color": "Mitternacht",
+              "colorHex": "#2E3642",
               "connectivity": null,
               "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172267574?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3041074",
               "storage": "512GB",
-              "color": "Space Grau",
-              "colorHex": "#7A7A7A",
+              "color": "Himmelblau",
+              "colorHex": "#8CB4D8",
               "connectivity": null,
               "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172268757?x=200&y=200&format=png&quality=80"
             },
             {
               "articleNumber": "3041076",
               "storage": "1TB 24GB",
-              "color": "Polarstern",
-              "colorHex": "#F4E8CE",
+              "color": "Himmelblau",
+              "colorHex": "#8CB4D8",
               "connectivity": null,
               "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_172269072?x=200&y=200&format=png&quality=80"
             }
@@ -651,8 +955,43 @@
             {
               "articleNumber": "3041077",
               "storage": "512GB",
+              "color": "Silber",
+              "colorHex": "#D4D4D4",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3041080",
+              "storage": "512GB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3041083",
+              "storage": "512GB",
               "color": "Mitternacht",
               "colorHex": "#2E3642",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3041086",
+              "storage": "512GB",
+              "color": "Himmelblau",
+              "colorHex": "#8CB4D8",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3041081",
+              "storage": "1TB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": null
+            },
+            {
+              "articleNumber": "3041082",
+              "storage": "1TB 24GB",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
               "connectivity": null
             }
           ]
@@ -1102,6 +1441,51 @@
               "colorHex": "#6B7FAD",
               "connectivity": null,
               "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144668218?x=200&y=200&format=png&quality=80"
+            }
+          ]
+        },
+        {
+          "name": "AirPods Max 2",
+          "variants": [
+            {
+              "articleNumber": "3043684",
+              "storage": "Standard",
+              "color": "Mitternacht",
+              "colorHex": "#2E3642",
+              "connectivity": null,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_173611635?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3043685",
+              "storage": "Standard",
+              "color": "Polarstern",
+              "colorHex": "#F4E8CE",
+              "connectivity": null,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_173611644?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3043686",
+              "storage": "Standard",
+              "color": "Blau",
+              "colorHex": "#6B7FAD",
+              "connectivity": null,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_173611630?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3043687",
+              "storage": "Standard",
+              "color": "Orange",
+              "colorHex": "#E87040",
+              "connectivity": null,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_173611639?x=200&y=200&format=png&quality=80"
+            },
+            {
+              "articleNumber": "3043688",
+              "storage": "Standard",
+              "color": "Violett",
+              "colorHex": "#9B8DC4",
+              "connectivity": null,
+              "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_173611678?x=200&y=200&format=png&quality=80"
             }
           ]
         }
