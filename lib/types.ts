@@ -41,4 +41,6 @@ export interface StockResponse {
   stores: StoreStock[];
   online: OnlineAvailability;
   cachedAt: string;
+  _source?: "json-ld" | "graphql" | "html-text";
+  _error?: string;
 }

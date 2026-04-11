@@ -1,0 +1,47 @@
+name: Stock Check Citti-Park
+
+on:
+  schedule:
+    # Every 15 minutes during store hours (7:00-22:00 CET = 5:00-20:00 UTC)
+    - cron: '*/15 5-20 * * *'
+  workflow_dispatch: # Manual trigger
+
+env:
+  GIST_ID: 32f647c1ba28a66b2759db6fa902ed0a
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Playwright
+        run: npx playwright install chromium --with-deps
+
+      - name: Run store stock scraper
+        run: node scripts/scrape-store-stock.mjs > stock-cache.json 2> scraper.log
+
+      - name: Show scraper log
+        if: always()
+        run: cat scraper.log
+
+      - name: Validate output
+        run: |
+          if [ ! -s stock-cache.json ]; then
+            echo "ERROR: stock-cache.json is empty"
+            exit 1
+          fi
+          node -e "const d=JSON.parse(require('fs').readFileSync('stock-cache.json','utf8')); console.log('Products:', d.totalProducts, 'Available:', d.availableCount);"
+
+      - name: Update Gist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh gist edit $GIST_ID --filename stock-cache.json stock-cache.json
+          echo "Gist updated at $(date -u)"

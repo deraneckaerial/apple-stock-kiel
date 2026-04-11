@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Cache } from "@/lib/cache";
-import { fetchStockFromMediaMarkt } from "@/lib/mediamarkt";
+import { checkAvailability } from "@/lib/mediamarkt";
 import type { StockResponse } from "@/lib/types";
 
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
@@ -34,7 +34,7 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    const data = await fetchStockFromMediaMarkt(articleNumber);
+    const data = await checkAvailability(articleNumber);
     stockCache.set(articleNumber, data);
     return NextResponse.json(data);
   } catch (error) {
