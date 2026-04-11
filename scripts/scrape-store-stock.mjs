@@ -1,11 +1,9 @@
 /**
  * Store stock scraper for MediaMarkt Citti-Park Kiel.
  *
- * Strategy: Navigate to each product page like a real user.
- * Read the availability from the __PRELOADED_STATE__ Apollo cache.
- * The pickup data for the nearest store is included in the SSR data.
- *
- * Usage: node scripts/scrape-store-stock.mjs
+ * Strategy: Set MC_OUTLET_ID=441 cookie, then navigate to each product page.
+ * MediaMarkt's own JS loads pickup data via GraphQL (passes Cloudflare natively).
+ * We read the pickup status from the rendered DOM.
  */
 
 import { chromium } from "playwright";
@@ -16,7 +14,8 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CATALOG_PATH = resolve(__dirname, "../data/products.json");
 
-const STORE_ID = "441"; // Citti-Park Kiel
+const STORE_ID = "441";
+const STORE_NAME = "MediaMarkt Kiel";
 
 function getArticleNumbers() {
   const catalog = JSON.parse(readFileSync(CATALOG_PATH, "utf8"));
@@ -32,128 +31,60 @@ function getArticleNumbers() {
 }
 
 /**
- * Extract pickup availability from the product page.
- * Tries multiple strategies:
- * 1. __PRELOADED_STATE__ Apollo cache (CofrPickupFeature)
- * 2. JSON-LD structured data
- * 3. DOM text indicators
+ * Read pickup status from the rendered DOM.
+ * After MC_OUTLET_ID cookie is set, the page shows one of:
+ * - "Abholbereit in ..." or "Marktabholung ab ..." → available for pickup
+ * - "Nicht abholbar" or "Dieser Artikel ist nicht abholbar" → not available
+ * - "Bitte wähle einen Markt aus" → store not set (shouldn't happen)
  */
-async function extractAvailability(page, articleNumber) {
-  try {
-    return await page.evaluate(({ storeId }) => {
-      const result = {
-        available: false,
-        pickup: false,
-        stockLevel: "none",
-        onlineAvailable: false,
-        source: "none",
-      };
+async function readPickupFromDOM(page) {
+  return page.evaluate(() => {
+    const body = document.body.innerText;
 
-      // Strategy 1: Apollo cache in __PRELOADED_STATE__
-      const state = window.__PRELOADED_STATE__;
-      if (state?.apolloState) {
-        const apollo = state.apolloState;
-        const keys = Object.keys(apollo);
+    // Positive indicators
+    const pickupAvailable =
+      body.includes("Abholbereit") ||
+      body.includes("Marktabholung ab") ||
+      body.includes("Marktabholung möglich") ||
+      body.includes("Heute abholbar");
 
-        // Find CofrPickupFeature entries
-        const pickupKeys = keys.filter((k) => k.startsWith("CofrPickupFeature:"));
-        for (const key of pickupKeys) {
-          const data = apollo[key];
-          if (!data) continue;
+    // Negative indicators
+    const pickupUnavailable =
+      body.includes("Nicht abholbar") ||
+      body.includes("nicht abholbar") ||
+      body.includes("Dieser Artikel ist leider nicht");
 
-          // Check if this is for the retail product (not marketplace)
-          if (data.isProductOfTypeMarketplace) continue;
+    // No store set
+    const noStore = body.includes("Bitte wähle einen Markt aus");
 
-          const pickupStatus = data.pickupStatus;
-          if (
-            pickupStatus === "IMMEDIATELY_AVAILABLE" ||
-            pickupStatus === "AVAILABLE_WITHIN_REASONABLE_TIMEFRAME"
-          ) {
-            result.available = true;
-            result.pickup = true;
-            result.stockLevel = "high";
-            result.pickupStatus = pickupStatus;
-            result.source = "apollo-cache";
-            break;
-          } else if (pickupStatus === "NO_STORE_SELECTED") {
-            // No store set — can't determine pickup
-            result.pickupStatus = pickupStatus;
-            result.source = "apollo-no-store";
-          } else if (pickupStatus === "NOT_AVAILABLE") {
-            result.pickupStatus = pickupStatus;
-            result.source = "apollo-cache";
-          }
-        }
+    // Online indicators
+    const onlineAvailable =
+      body.includes("In den Warenkorb") ||
+      body.includes("Sofort-Lieferung") ||
+      body.includes("Lieferung nach Hause");
 
-        // Check online status from CofrOnlineStatusFeature
-        const onlineKeys = keys.filter((k) =>
-          k.startsWith("CofrOnlineStatusFeature:")
-        );
-        for (const key of onlineKeys) {
-          const data = apollo[key];
-          if (data?.isAvailableAndBuyable && !data.isProductOfTypeMarketplace) {
-            result.onlineAvailable = true;
-            break;
-          }
-        }
-      }
+    let status = "unknown";
+    if (pickupAvailable) status = "available";
+    else if (pickupUnavailable) status = "not_available";
+    else if (noStore) status = "no_store";
 
-      // Strategy 2: JSON-LD availability
-      const scripts = document.querySelectorAll(
-        'script[type="application/ld+json"]'
-      );
-      for (const s of scripts) {
-        try {
-          const d = JSON.parse(s.textContent);
-          if (d["@type"] === "BuyAction" && d.object?.offers) {
-            const offers = Array.isArray(d.object.offers)
-              ? d.object.offers
-              : [d.object.offers];
-            const inStock = offers.some(
-              (o) =>
-                o.availability?.includes("InStock") &&
-                !o.seller // Not marketplace
-            );
-            if (inStock) result.onlineAvailable = true;
-          }
-        } catch {}
-      }
-
-      // Strategy 3: DOM text as last resort
-      const bodyText = document.body.innerText;
-      if (
-        bodyText.includes("Abholbereit") ||
-        bodyText.includes("Marktabholung möglich")
-      ) {
-        result.available = true;
-        result.pickup = true;
-        result.stockLevel = "high";
-        if (result.source === "none") result.source = "dom-text";
-      }
-
-      return result;
-    }, { storeId: STORE_ID });
-  } catch (err) {
     return {
-      available: false,
-      pickup: false,
-      stockLevel: "none",
-      _error: err.message,
+      pickupAvailable,
+      pickupUnavailable,
+      noStore,
+      onlineAvailable,
+      status,
     };
-  }
+  });
 }
 
 async function main() {
   const articles = getArticleNumbers();
-  console.error(`[scraper] Found ${articles.length} articles to check`);
+  console.error(`[scraper] ${articles.length} articles to check at ${STORE_NAME}`);
 
   const browser = await chromium.launch({
     headless: true,
-    args: [
-      "--disable-blink-features=AutomationControlled",
-      "--no-sandbox",
-      "--disable-dev-shm-usage",
-    ],
+    args: ["--disable-blink-features=AutomationControlled", "--no-sandbox"],
   });
 
   const context = await browser.newContext({
@@ -163,6 +94,16 @@ async function main() {
     viewport: { width: 1920, height: 1080 },
   });
 
+  // Set the store cookie BEFORE any navigation
+  await context.addCookies([
+    {
+      name: "MC_OUTLET_ID",
+      value: STORE_ID,
+      domain: ".mediamarkt.de",
+      path: "/",
+    },
+  ]);
+
   await context.addInitScript(() => {
     Object.defineProperty(navigator, "webdriver", { get: () => false });
   });
@@ -170,48 +111,45 @@ async function main() {
   const page = await context.newPage();
 
   const results = {};
-  let successCount = 0;
+  let availableCount = 0;
   let failCount = 0;
-  let processedCount = 0;
 
-  for (const articleNumber of articles) {
-    processedCount++;
-    if (processedCount % 20 === 1) {
-      console.error(
-        `[scraper] Progress: ${processedCount}/${articles.length}`
-      );
+  for (let i = 0; i < articles.length; i++) {
+    const articleNumber = articles[i];
+
+    if ((i + 1) % 20 === 1 || i === 0) {
+      console.error(`[scraper] Progress: ${i + 1}/${articles.length}`);
     }
 
     try {
-      const url = `https://www.mediamarkt.de/de/product/-${articleNumber}.html`;
-      await page.goto(url, {
-        waitUntil: "domcontentloaded",
-        timeout: 15000,
-      });
+      await page.goto(
+        `https://www.mediamarkt.de/de/product/-${articleNumber}.html`,
+        { waitUntil: "domcontentloaded", timeout: 15000 }
+      );
 
-      // Brief wait for SSR data to be available
-      await page.waitForTimeout(500);
+      // Wait for client-side JS to load pickup data
+      // The pickup section needs time to fetch from GraphQL
+      await page.waitForTimeout(2500);
 
-      // Check if we hit Cloudflare
+      // Check for Cloudflare challenge
       const title = await page.title();
       if (title.includes("Just a moment")) {
-        console.error(`[scraper] Cloudflare on ${articleNumber}, waiting...`);
-        await page.waitForTimeout(8000);
+        console.error(`[scraper] Cloudflare challenge on ${articleNumber}`);
+        await page.waitForTimeout(10000);
       }
 
-      const avail = await extractAvailability(page, articleNumber);
+      const dom = await readPickupFromDOM(page);
 
       results[articleNumber] = {
         articleNumber,
-        available: avail.available,
-        pickup: avail.pickup,
-        stockLevel: avail.stockLevel,
-        pickupStatus: avail.pickupStatus,
-        onlineAvailable: avail.onlineAvailable,
-        source: avail.source,
+        available: dom.pickupAvailable,
+        pickup: dom.pickupAvailable,
+        stockLevel: dom.pickupAvailable ? "high" : "none",
+        onlineAvailable: dom.onlineAvailable,
+        status: dom.status,
       };
 
-      if (avail.available) successCount++;
+      if (dom.pickupAvailable) availableCount++;
     } catch (err) {
       failCount++;
       results[articleNumber] = {
@@ -219,7 +157,7 @@ async function main() {
         available: false,
         pickup: false,
         stockLevel: "none",
-        _error: err.message?.substring(0, 100),
+        _error: err.message?.substring(0, 80),
       };
     }
   }
@@ -231,14 +169,14 @@ async function main() {
     storeName: "MediaMarkt Kiel (Citti-Park)",
     checkedAt: new Date().toISOString(),
     totalProducts: articles.length,
-    availableCount: successCount,
+    availableCount,
     failedCount: failCount,
     products: results,
   };
 
   console.error(
-    `[scraper] Done: ${successCount} available, ${failCount} failed, ${
-      articles.length - successCount - failCount
+    `[scraper] Done: ${availableCount} pickup-available, ${failCount} failed, ${
+      articles.length - availableCount - failCount
     } not in stock`
   );
 
@@ -246,6 +184,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error("[scraper] Fatal error:", err);
+  console.error("[scraper] Fatal:", err);
   process.exit(1);
 });
