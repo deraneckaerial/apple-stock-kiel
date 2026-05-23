@@ -1,9 +1,9 @@
 {
   "storeId": "441",
   "storeName": "MediaMarkt Kiel (Citti-Park)",
-  "checkedAt": "2026-05-23T18:55:29.266Z",
+  "checkedAt": "2026-05-23T20:52:21.088Z",
   "totalProducts": 179,
-  "availableCount": 109,
+  "availableCount": 103,
   "failedCount": 0,
   "products": {
     "2731996": {
@@ -83,8 +83,8 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "2954266": {
       "articleNumber": "2954266",
@@ -115,8 +115,8 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "2954282": {
       "articleNumber": "2954282",
@@ -139,8 +139,8 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "2954297": {
       "articleNumber": "2954297",
@@ -195,7 +195,7 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
+      "onlineAvailable": true,
       "status": "unknown"
     },
     "2961509": {
@@ -227,24 +227,24 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "2961613": {
       "articleNumber": "2961613",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
+      "onlineAvailable": true,
+      "status": "available"
     },
     "2961616": {
       "articleNumber": "2961616",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
+      "onlineAvailable": true,
+      "status": "available"
     },
     "2964534": {
       "articleNumber": "2964534",
@@ -339,7 +339,7 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
+      "onlineAvailable": true,
       "status": "unknown"
     },
     "2982463": {
@@ -347,8 +347,8 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "2982464": {
       "articleNumber": "2982464",
@@ -384,34 +384,34 @@
     },
     "2984224": {
       "articleNumber": "2984224",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
-    },
-    "2984227": {
-      "articleNumber": "2984227",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
       "onlineAvailable": true,
       "status": "no_store"
     },
+    "2984227": {
+      "articleNumber": "2984227",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": false,
+      "status": "unknown"
+    },
     "2984237": {
       "articleNumber": "2984237",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": false,
+      "status": "unknown"
     },
     "2984247": {
       "articleNumber": "2984247",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": true,
+      "onlineAvailable": false,
       "status": "unknown"
     },
     "2984250": {
@@ -419,7 +419,7 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": true,
+      "onlineAvailable": false,
       "status": "unknown"
     },
     "2984280": {
@@ -435,8 +435,8 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "2984497": {
       "articleNumber": "2984497",
@@ -528,11 +528,11 @@
     },
     "3013577": {
       "articleNumber": "3013577",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "no_store"
+      "status": "available"
     },
     "3013578": {
       "articleNumber": "3013578",
@@ -555,64 +555,64 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "3013586": {
       "articleNumber": "3013586",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "3013587": {
       "articleNumber": "3013587",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "3013588": {
       "articleNumber": "3013588",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "3013590": {
       "articleNumber": "3013590",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "3013594": {
       "articleNumber": "3013594",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "3013596": {
       "articleNumber": "3013596",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "3013597": {
       "articleNumber": "3013597",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "3013606": {
       "articleNumber": "3013606",
@@ -691,16 +691,16 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "3013617": {
       "articleNumber": "3013617",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": false,
-      "status": "unknown"
+      "onlineAvailable": true,
+      "status": "no_store"
     },
     "3013618": {
       "articleNumber": "3013618",
@@ -808,11 +808,11 @@
     },
     "3013635": {
       "articleNumber": "3013635",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "no_store"
+      "status": "available"
     },
     "3013636": {
       "articleNumber": "3013636",
@@ -944,75 +944,75 @@
     },
     "3040172": {
       "articleNumber": "3040172",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": false,
+      "status": "unknown"
     },
     "3040173": {
       "articleNumber": "3040173",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": false,
+      "status": "unknown"
     },
     "3040175": {
       "articleNumber": "3040175",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": false,
+      "status": "unknown"
     },
     "3040178": {
       "articleNumber": "3040178",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": false,
+      "status": "unknown"
     },
     "3040180": {
       "articleNumber": "3040180",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": false,
+      "status": "unknown"
     },
     "3040185": {
       "articleNumber": "3040185",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": false,
+      "status": "unknown"
     },
     "3040187": {
       "articleNumber": "3040187",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": true,
+      "onlineAvailable": false,
       "status": "unknown"
     },
     "3040188": {
       "articleNumber": "3040188",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": false,
+      "status": "unknown"
     },
     "3040189": {
       "articleNumber": "3040189",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": false,
+      "status": "unknown"
     },
     "3040193": {
       "articleNumber": "3040193",
