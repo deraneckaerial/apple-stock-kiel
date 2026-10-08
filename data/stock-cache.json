@@ -1,10 +1,10 @@
 {
   "storeId": "441",
   "storeName": "MediaMarkt Kiel (Citti-Park)",
-  "checkedAt": "2026-10-08T18:13:39.705Z",
+  "checkedAt": "2026-10-08T23:15:02.542Z",
   "totalProducts": 179,
-  "availableCount": 84,
-  "failedCount": 5,
+  "availableCount": 90,
+  "failedCount": 0,
   "products": {
     "2731996": {
       "articleNumber": "2731996",
@@ -480,11 +480,11 @@
     },
     "2984516": {
       "articleNumber": "2984516",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "available"
     },
     "2993078": {
       "articleNumber": "2993078",
@@ -976,38 +976,43 @@
     },
     "3040180": {
       "articleNumber": "3040180",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
-      "_error": "page.goto: net::ERR_TOO_MANY_REDIRECTS at https://www.mediamarkt.de/de/product/-"
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
+      "onlineAvailable": true,
+      "status": "available"
     },
     "3040185": {
       "articleNumber": "3040185",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-3040185.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "3040187": {
       "articleNumber": "3040187",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-3040187.html\" is"
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
+      "onlineAvailable": true,
+      "status": "available"
     },
     "3040188": {
       "articleNumber": "3040188",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-3040188.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "3040189": {
       "articleNumber": "3040189",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
-      "_error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.me"
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
+      "onlineAvailable": true,
+      "status": "available"
     },
     "3040193": {
       "articleNumber": "3040193",
@@ -1275,11 +1280,11 @@
     },
     "3041080": {
       "articleNumber": "3041080",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "available"
     },
     "3041081": {
       "articleNumber": "3041081",
@@ -1379,11 +1384,11 @@
     },
     "3041102": {
       "articleNumber": "3041102",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "available"
     },
     "3041103": {
       "articleNumber": "3041103",
