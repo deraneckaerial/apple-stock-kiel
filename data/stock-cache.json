@@ -1,10 +1,10 @@
 {
   "storeId": "441",
   "storeName": "MediaMarkt Kiel (Citti-Park)",
-  "checkedAt": "2026-10-15T18:39:49.981Z",
+  "checkedAt": "2026-10-15T21:47:07.888Z",
   "totalProducts": 179,
-  "availableCount": 91,
-  "failedCount": 1,
+  "availableCount": 90,
+  "failedCount": 0,
   "products": {
     "2731996": {
       "articleNumber": "2731996",
@@ -632,11 +632,11 @@
     },
     "3013608": {
       "articleNumber": "3013608",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "no_store"
     },
     "3013609": {
       "articleNumber": "3013609",
@@ -888,11 +888,11 @@
     },
     "3019821": {
       "articleNumber": "3019821",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "unknown"
     },
     "3019832": {
       "articleNumber": "3019832",
@@ -1027,7 +1027,7 @@
       "available": true,
       "pickup": true,
       "stockLevel": "high",
-      "onlineAvailable": true,
+      "onlineAvailable": false,
       "status": "available"
     },
     "3040199": {
@@ -1112,10 +1112,11 @@
     },
     "3040222": {
       "articleNumber": "3040222",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
-      "_error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.me"
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
+      "onlineAvailable": true,
+      "status": "available"
     },
     "3040227": {
       "articleNumber": "3040227",
