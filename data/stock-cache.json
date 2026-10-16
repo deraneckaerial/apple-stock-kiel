@@ -1,10 +1,10 @@
 {
   "storeId": "441",
   "storeName": "MediaMarkt Kiel (Citti-Park)",
-  "checkedAt": "2026-10-16T09:36:43.718Z",
+  "checkedAt": "2026-10-16T14:18:12.229Z",
   "totalProducts": 179,
-  "availableCount": 86,
-  "failedCount": 21,
+  "availableCount": 87,
+  "failedCount": 0,
   "products": {
     "2731996": {
       "articleNumber": "2731996",
@@ -56,11 +56,11 @@
     },
     "2904847": {
       "articleNumber": "2904847",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "unknown"
     },
     "2934882": {
       "articleNumber": "2934882",
@@ -83,35 +83,40 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2954263.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2954266": {
       "articleNumber": "2954266",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2954266.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2954269": {
       "articleNumber": "2954269",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2954269.html\" is"
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
+      "onlineAvailable": true,
+      "status": "available"
     },
     "2954272": {
       "articleNumber": "2954272",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2954272.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2954274": {
       "articleNumber": "2954274",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2954274.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2954282": {
       "articleNumber": "2954282",
@@ -126,28 +131,32 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2954293.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2954295": {
       "articleNumber": "2954295",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2954295.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2954297": {
       "articleNumber": "2954297",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2954297.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2954300": {
       "articleNumber": "2954300",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2954300.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2954319": {
       "articleNumber": "2954319",
@@ -167,11 +176,11 @@
     },
     "2954343": {
       "articleNumber": "2954343",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "available"
     },
     "2961502": {
       "articleNumber": "2961502",
@@ -322,42 +331,48 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2982461.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2982462": {
       "articleNumber": "2982462",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2982462.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2982463": {
       "articleNumber": "2982463",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2982463.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2982464": {
       "articleNumber": "2982464",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2982464.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2982466": {
       "articleNumber": "2982466",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2982466.html\" is"
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
+      "onlineAvailable": true,
+      "status": "available"
     },
     "2982468": {
       "articleNumber": "2982468",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-2982468.html\" is"
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
+      "onlineAvailable": true,
+      "status": "available"
     },
     "2984219": {
       "articleNumber": "2984219",
@@ -385,11 +400,11 @@
     },
     "2984237": {
       "articleNumber": "2984237",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "unknown"
     },
     "2984247": {
       "articleNumber": "2984247",
@@ -420,7 +435,8 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.me"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "2984497": {
       "articleNumber": "2984497",
@@ -500,7 +516,7 @@
       "pickup": false,
       "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "no_store"
     },
     "3013576": {
       "articleNumber": "3013576",
@@ -571,28 +587,32 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: net::ERR_TOO_MANY_REDIRECTS at https://www.mediamarkt.de/de/product/-"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "3013594": {
       "articleNumber": "3013594",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-3013594.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "3013596": {
       "articleNumber": "3013596",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-3013596.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "3013597": {
       "articleNumber": "3013597",
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "_error": "page.goto: Navigation to \"https://www.mediamarkt.de/de/product/-3013597.html\" is"
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "3013606": {
       "articleNumber": "3013606",
@@ -604,11 +624,11 @@
     },
     "3013607": {
       "articleNumber": "3013607",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "available"
     },
     "3013608": {
       "articleNumber": "3013608",
@@ -812,11 +832,11 @@
     },
     "3013639": {
       "articleNumber": "3013639",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "unknown"
     },
     "3013641": {
       "articleNumber": "3013641",
@@ -892,11 +912,11 @@
     },
     "3019860": {
       "articleNumber": "3019860",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "available"
     },
     "3034649": {
       "articleNumber": "3034649",
@@ -932,11 +952,11 @@
     },
     "3040173": {
       "articleNumber": "3040173",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "unknown"
     },
     "3040175": {
       "articleNumber": "3040175",
@@ -948,11 +968,11 @@
     },
     "3040178": {
       "articleNumber": "3040178",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "unknown"
     },
     "3040180": {
       "articleNumber": "3040180",
@@ -1092,10 +1112,11 @@
     },
     "3040222": {
       "articleNumber": "3040222",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
-      "_error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.me"
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
+      "onlineAvailable": true,
+      "status": "available"
     },
     "3040227": {
       "articleNumber": "3040227",
@@ -1219,11 +1240,11 @@
     },
     "3041068": {
       "articleNumber": "3041068",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "unknown"
     },
     "3041071": {
       "articleNumber": "3041071",
