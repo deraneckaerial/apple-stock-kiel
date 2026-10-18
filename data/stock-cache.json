@@ -1,9 +1,9 @@
 {
   "storeId": "441",
   "storeName": "MediaMarkt Kiel (Citti-Park)",
-  "checkedAt": "2026-10-18T09:25:48.332Z",
+  "checkedAt": "2026-10-18T13:28:55.089Z",
   "totalProducts": 179,
-  "availableCount": 83,
+  "availableCount": 82,
   "failedCount": 0,
   "products": {
     "2731996": {
@@ -328,11 +328,11 @@
     },
     "2982461": {
       "articleNumber": "2982461",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "unknown"
     },
     "2982462": {
       "articleNumber": "2982462",
@@ -400,11 +400,11 @@
     },
     "2984237": {
       "articleNumber": "2984237",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "available"
     },
     "2984247": {
       "articleNumber": "2984247",
@@ -984,11 +984,11 @@
     },
     "3040185": {
       "articleNumber": "3040185",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "unknown"
     },
     "3040187": {
       "articleNumber": "3040187",
@@ -1112,11 +1112,11 @@
     },
     "3040222": {
       "articleNumber": "3040222",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "available"
     },
     "3040227": {
       "articleNumber": "3040227",
@@ -1240,11 +1240,11 @@
     },
     "3041068": {
       "articleNumber": "3041068",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": false,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "onlineAvailable": true,
+      "status": "unknown"
     },
     "3041071": {
       "articleNumber": "3041071",
@@ -1275,7 +1275,7 @@
       "available": true,
       "pickup": true,
       "stockLevel": "high",
-      "onlineAvailable": false,
+      "onlineAvailable": true,
       "status": "available"
     },
     "3041080": {
