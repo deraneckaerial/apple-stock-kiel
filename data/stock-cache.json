@@ -1,10 +1,10 @@
 {
   "storeId": "441",
   "storeName": "MediaMarkt Kiel (Citti-Park)",
-  "checkedAt": "2026-10-31T19:51:53.877Z",
+  "checkedAt": "2026-10-31T23:03:32.657Z",
   "totalProducts": 179,
-  "availableCount": 73,
-  "failedCount": 0,
+  "availableCount": 75,
+  "failedCount": 3,
   "products": {
     "2731996": {
       "articleNumber": "2731996",
@@ -168,11 +168,11 @@
     },
     "2954330": {
       "articleNumber": "2954330",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "no_store"
     },
     "2954343": {
       "articleNumber": "2954343",
@@ -312,11 +312,11 @@
     },
     "2964719": {
       "articleNumber": "2964719",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "available"
+      "status": "no_store"
     },
     "2981210": {
       "articleNumber": "2981210",
@@ -472,11 +472,10 @@
     },
     "2984512": {
       "articleNumber": "2984512",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.me"
     },
     "2984516": {
       "articleNumber": "2984516",
@@ -584,11 +583,11 @@
     },
     "3013590": {
       "articleNumber": "3013590",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "no_store"
+      "status": "available"
     },
     "3013594": {
       "articleNumber": "3013594",
@@ -616,11 +615,11 @@
     },
     "3013606": {
       "articleNumber": "3013606",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "available"
     },
     "3013607": {
       "articleNumber": "3013607",
@@ -715,16 +714,16 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": true,
+      "onlineAvailable": false,
       "status": "unknown"
     },
     "3013620": {
       "articleNumber": "3013620",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "no_store"
+      "status": "available"
     },
     "3013621": {
       "articleNumber": "3013621",
@@ -779,7 +778,7 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": true,
+      "onlineAvailable": false,
       "status": "unknown"
     },
     "3013630": {
@@ -860,7 +859,7 @@
       "pickup": false,
       "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "no_store"
+      "status": "unknown"
     },
     "3019814": {
       "articleNumber": "3019814",
@@ -912,11 +911,10 @@
     },
     "3019860": {
       "articleNumber": "3019860",
-      "available": true,
-      "pickup": true,
-      "stockLevel": "high",
-      "onlineAvailable": true,
-      "status": "available"
+      "available": false,
+      "pickup": false,
+      "stockLevel": "none",
+      "_error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.me"
     },
     "3034649": {
       "articleNumber": "3034649",
@@ -1092,7 +1090,7 @@
       "pickup": false,
       "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "no_store"
+      "status": "unknown"
     },
     "3040219": {
       "articleNumber": "3040219",
@@ -1104,11 +1102,11 @@
     },
     "3040221": {
       "articleNumber": "3040221",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "no_store"
+      "status": "available"
     },
     "3040222": {
       "articleNumber": "3040222",
@@ -1192,11 +1190,11 @@
     },
     "3040249": {
       "articleNumber": "3040249",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "unknown"
+      "status": "available"
     },
     "3040253": {
       "articleNumber": "3040253",
@@ -1208,11 +1206,11 @@
     },
     "3040280": {
       "articleNumber": "3040280",
-      "available": false,
-      "pickup": false,
-      "stockLevel": "none",
+      "available": true,
+      "pickup": true,
+      "stockLevel": "high",
       "onlineAvailable": true,
-      "status": "no_store"
+      "status": "available"
     },
     "3040281": {
       "articleNumber": "3040281",
@@ -1227,8 +1225,7 @@
       "available": false,
       "pickup": false,
       "stockLevel": "none",
-      "onlineAvailable": true,
-      "status": "unknown"
+      "_error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.me"
     },
     "3041065": {
       "articleNumber": "3041065",
@@ -1332,7 +1329,7 @@
       "pickup": false,
       "stockLevel": "none",
       "onlineAvailable": true,
-      "status": "no_store"
+      "status": "unknown"
     },
     "3041093": {
       "articleNumber": "3041093",
